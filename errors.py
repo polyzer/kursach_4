@@ -27,4 +27,13 @@ for line in open_file.readlines():
                 error_obj['missed_matches'] += 1
 #    result = re.split(r'[[', 'Analytics Vidhya')
 open_file.close()
-print(classes_objects)
+summary = 0
+# Now we calculates errors
+for error_obj in classes_objects:
+    if error_obj['right_matches'] + error_obj['missed_matches'] > 0:
+        error_obj['error_ref'] = error_obj['missed_matches'] / (error_obj['right_matches'] + error_obj['missed_matches'])
+for error_obj in classes_objects:
+    if error_obj['right_matches'] + error_obj['missed_matches'] > 0:
+        summary += error_obj['error_ref']
+summary = summary/104
+print(summary)
