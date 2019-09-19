@@ -1,1 +1,6 @@
 Datasets
+*.h5
+*.prototxt
+*.caffemodel
+model/3DFace
+.ipynb_checkpoints
