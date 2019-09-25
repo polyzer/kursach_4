@@ -10,10 +10,19 @@ import sys
 import glob
 import os
 import shutil
+import datetime
 
 files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply"
 files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
+
+timestamp = datetime.datetime.now()
+model_name = "output_pruned.caffemodel"
+prototxt_file = "VGG_FACE_deploy.prototxt"
+log_file = open(".\\logs\\identication_" + timestamp, "a+")
+log_file.write("Experiment type: Identication\n")
+log_file.write("Date: %s\n" %(timestamp))
+log_file.write("Model: %s\n" %(model_name))
 
 def getFeatures(model, adata):
     sFeatures = []
@@ -47,7 +56,7 @@ def getIdentificationAccuracy(model, aGallery, aGalleryLabel,aProb, aProbLabel):
         if i == 0:
           t0 = time.clock()
         temp_max = -10
-        temp_index = 0;
+        temp_index = 0
         temp_max = -1000
 
         measure = []
@@ -100,81 +109,98 @@ def to_rgb1a(im):
 sTarget = '.npy'
 
 caffe.set_mode_cpu()
-net = caffe.Net("VGG_FACE_deploy.prototxt", "output_pruned.caffemodel",  caffe.TEST)
+net = caffe.Net(prototxt_file, model_name,  caffe.TEST)
 
 print('done')
 
-X_Gallery = []
-X_Probe = []
+for i in range(100):
+    name_index = ""
+    if i < 10:
+        name_index += "00" + str(i)
+    elif i < 100:
+        name_index += "0" + str(i)
+    else:
+        name_index += str(i)
+    copy_file_names = glob.glob(os.path.join(files_ply_path, "bs" + name_index + "*"))
+    for full_file_name in copy_file_names:
+        file_name = os.path.basename(full_file_name)
+        copy_file_name = os.path.join(files_probe_path, file_name)
+        shutil.copy(full_file_name, copy_file_name)
 
-Y_Gallery = []
-Y_Probe = []
-###
-fileNames = []
-avg = np.array([37,37,37])
+    X_Gallery = []
+    X_Probe = []
 
-## Gallery Path
-sGalPath = './3DFace/gallery'
+    Y_Gallery = []
+    Y_Probe = []
+    ###
+    fileNames = []
+    avg = np.array([37,37,37])
 
-
-dirs = [f for f in listdir(sGalPath) if isfile(join(sGalPath, f)) and (f.endswith(sTarget))]
-N_id = len(dirs)
-for i, n in enumerate(dirs):
-
-    Y_temp = np.zeros(N_id)
-    Y_temp[i] = 1
-    X_temp = np.load(sGalPath + '/'+ n)
-    X_temp = to_rgb1a(X_temp)
-    image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
-    image = image - avg
-    image = image.transpose((2, 0, 1))
-
-    X_Gallery.append(image)
-    Y_Gallery.append(Y_temp)
+    ## Gallery Path
+    sGalPath = './3DFace/gallery'
 
 
+    dirs = [f for f in listdir(sGalPath) if isfile(join(sGalPath, f)) and (f.endswith(sTarget))]
+    N_id = len(dirs)
+    for i, n in enumerate(dirs):
 
-## Probe Path
-sProbPath = './3DFace/probe'
-dirs = [f for f in listdir(sProbPath) if isfile(join(sProbPath, f)) and (f.endswith(sTarget))]
+        Y_temp = np.zeros(N_id)
+        Y_temp[i] = 1
+        X_temp = np.load(sGalPath + '/'+ n)
+        X_temp = to_rgb1a(X_temp)
+        image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
+        image = image - avg
+        image = image.transpose((2, 0, 1))
 
-N_id = len(dirs)
-
-for i, n in enumerate(dirs):
-    Y_temp = np.zeros(N_id)
-    Y_temp[i] = 1
-    X_temp = np.load(sProbPath + '/' + n)
-    X_temp = to_rgb1a(X_temp)
-    image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
-    image = image - avg
-    image = image.transpose((2, 0, 1))
-    X_Probe.append(image)
-    Y_Probe.append(Y_temp)
-    fileNames.append(n)
+        X_Gallery.append(image)
+        Y_Gallery.append(Y_temp)
 
 
-X_Gallery = np.array(X_Gallery)
-print('Gallery data shape: ', X_Gallery.shape)
-X_Probe= np.array(X_Probe)
-print('Probe data shape: ', X_Probe.shape)
-Y_Gallery = np.array(Y_Gallery)
-Y_Probe = np.array(Y_Probe)
 
-sGallerylabel = np.where(Y_Gallery == 1)
-sGallerylabel = sGallerylabel[1]
+    ## Probe Path
+    sProbPath = './3DFace/probe'
+    dirs = [f for f in listdir(sProbPath) if isfile(join(sProbPath, f)) and (f.endswith(sTarget))]
 
-sProbLabel = np.where(Y_Probe == 1)
-sProbLabel = sProbLabel[1]
+    N_id = len(dirs)
 
-[results, label, min, max_similarities, similarities, similaritiesMatrix] = getIdentificationAccuracy(net, X_Gallery, sGallerylabel, X_Probe, sProbLabel)
-
-
-print("rank-1 acc: ", results)
-
-
-for i in range(0, len(fileNames)):
-    print(fileNames[i], 'Probe Label:', sGallerylabel[i], 'Matched Label:',
-          min[i], ' max similarity: ', max_similarities[i], 'ref similarity: ', similarities[i])
-    print ('\n')
+    for i, n in enumerate(dirs):
+        Y_temp = np.zeros(N_id)
+        Y_temp[i] = 1
+        X_temp = np.load(sProbPath + '/' + n)
+        X_temp = to_rgb1a(X_temp)
+        image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
+        image = image - avg
+        image = image.transpose((2, 0, 1))
+        X_Probe.append(image)
+        Y_Probe.append(Y_temp)
+        fileNames.append(n)
 
 
+    X_Gallery = np.array(X_Gallery)
+    print('Gallery data shape: ', X_Gallery.shape)
+    X_Probe= np.array(X_Probe)
+    print('Probe data shape: ', X_Probe.shape)
+    Y_Gallery = np.array(Y_Gallery)
+    Y_Probe = np.array(Y_Probe)
+
+    sGallerylabel = np.where(Y_Gallery == 1)
+    sGallerylabel = sGallerylabel[1]
+
+    sProbLabel = np.where(Y_Probe == 1)
+    sProbLabel = sProbLabel[1]
+
+    [results, label, min, max_similarities, similarities, similaritiesMatrix] = getIdentificationAccuracy(net, X_Gallery, sGallerylabel, X_Probe, sProbLabel)
+
+
+    print("rank-1 acc: ", results)
+
+
+    for i in range(0, len(fileNames)):
+        print(fileNames[i], ' Probe Label: ', sGallerylabel[i], ' Matched Label: ',
+            min[i], ' max similarity: ', max_similarities[i], ' ref similarity: ', similarities[i])
+        print ('\n')
+        log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + 'Matched Label: ' +
+            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + 'ref similarity: ' + str(similarities[i] + "\n"))
+
+
+log_file.close()
