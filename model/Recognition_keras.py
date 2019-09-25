@@ -1,4 +1,5 @@
 import keras
+import keract
 from keras.preprocessing.image import load_img
 import numpy as np
 import scipy.misc
@@ -16,13 +17,16 @@ def getFeatures(net, adata):
     sFeatures = []
     for i in range(0,len(adata)):
         img = adata[i]
-        print(img)
+        print(img.shape)
+        img = np.moveaxis(img, 0, -1)
+        print(img.shape)
         # net.blobs['data'].data[...] = img
         # out = net.forward()
         print("MODEL PREDICT:")
-        out = net.predict(img)
+        resized_img = np.expand_dims(img, axis=0)
+        out = net.predict(resized_img)
 
-        caffe_fc7 = net.blobs['fc7'].data[0].copy()
+        caffe_fc7 = keract.get_activations(net, resized_img, 'fc7')
         sTemp_layer_output = caffe_fc7
         sTemp_layer_output= sTemp_layer_output.reshape(1, 4096)
 

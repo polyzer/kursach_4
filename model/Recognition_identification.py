@@ -7,7 +7,13 @@ from os.path import isfile, join
 import time
 from sklearn.metrics.pairwise import cosine_similarity
 import sys
+import glob
+import os
+import shutil
 
+files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply"
+files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
+files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
 def getFeatures(model, adata):
     sFeatures = []
