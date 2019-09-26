@@ -18,7 +18,7 @@ def distance(v1,v2):
 
 ## Define Path
 
-Paths = ['./model/3DFace/Probe', './model/3DFace/Gallery']
+Paths = ['./3DFace/Probe', './3DFace/Gallery']
 
 for sDefaultPath in Paths:
 

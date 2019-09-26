@@ -12,17 +12,36 @@ import os
 import shutil
 import datetime
 
-files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply"
+files_ply_path = "G:\\workspace\\irisfaceRGBD\\3DFace\\Probe"
 files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
 timestamp = datetime.datetime.now()
 model_name = "output_pruned.caffemodel"
 prototxt_file = "VGG_FACE_deploy.prototxt"
-log_file = open(".\\logs\\identication_" + timestamp, "a+")
+log_file = open(".\\logs\\identication_" + str(timestamp).replace(' ', '_').replace(":", "_"), "a+")
 log_file.write("Experiment type: Identication\n")
 log_file.write("Date: %s\n" %(timestamp))
 log_file.write("Model: %s\n" %(model_name))
+
+
+def removeFilesfromDir(dirname):
+    if dirname == files_ply_path:
+        print("NOOOOOOOOOOOOOOOOO")
+        return
+    files_in_dir = glob.glob(os.path.join(dirname, "*"))
+    for f_name in files_in_dir:
+        os.remove(f_name)
+    # for file_name in files_in_dir:
+    #     os.remove(file_name)
+
+def copyBosphorusNormalFiles(from_dir, to_dir):
+    norm_files = glob.glob(os.path.join(from_dir, "*N_N_0*"))
+    for full_file_name in norm_files:
+        file_name = os.path.basename(full_file_name)
+        copy_file_name = os.path.join(to_dir, file_name)
+        shutil.copy(full_file_name, copy_file_name)
+    print("Normal files were copied")
 
 def getFeatures(model, adata):
     sFeatures = []
@@ -121,6 +140,7 @@ for i in range(100):
         name_index += "0" + str(i)
     else:
         name_index += str(i)
+    removeFilesfromDir(files_probe_path)    
     copy_file_names = glob.glob(os.path.join(files_ply_path, "bs" + name_index + "*"))
     for full_file_name in copy_file_names:
         file_name = os.path.basename(full_file_name)
@@ -137,7 +157,7 @@ for i in range(100):
     avg = np.array([37,37,37])
 
     ## Gallery Path
-    sGalPath = './3DFace/gallery'
+    sGalPath = './3DFace/Gallery'
 
 
     dirs = [f for f in listdir(sGalPath) if isfile(join(sGalPath, f)) and (f.endswith(sTarget))]
@@ -158,7 +178,7 @@ for i in range(100):
 
 
     ## Probe Path
-    sProbPath = './3DFace/probe'
+    sProbPath = './3DFace/Probe'
     dirs = [f for f in listdir(sProbPath) if isfile(join(sProbPath, f)) and (f.endswith(sTarget))]
 
     N_id = len(dirs)
@@ -192,7 +212,7 @@ for i in range(100):
     [results, label, min, max_similarities, similarities, similaritiesMatrix] = getIdentificationAccuracy(net, X_Gallery, sGallerylabel, X_Probe, sProbLabel)
 
 
-    print("rank-1 acc: ", results)
+    print("rank-1 acc: ", results)  
 
 
     for i in range(0, len(fileNames)):
@@ -200,7 +220,7 @@ for i in range(100):
             min[i], ' max similarity: ', max_similarities[i], ' ref similarity: ', similarities[i])
         print ('\n')
         log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + 'Matched Label: ' +
-            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + 'ref similarity: ' + str(similarities[i] + "\n"))
+            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + 'ref similarity: ' + str(similarities[i]) + "\n")
 
 
 log_file.close()
