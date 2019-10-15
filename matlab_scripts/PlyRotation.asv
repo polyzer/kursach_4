@@ -1,43 +1,40 @@
 %This script rotates ply clouds
-PlyLoadDir = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply\\";
-RotatedPlySaveDir = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply_rotated\\";
+PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_1\';
+RotatedPlySaveDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_rotated\';
 
-mask=strcat(BtnDir,'*.ply');
-files  = dir (mask);
-[count, ~] = size(files);
-
-normals_mask=strcat(BtnDir,'*N_N_0.ply');
-normal_files  = dir (normals_mask);
-[count, ~] = size(normal_files);
-for k = 0:105
+for k = 0:0
     if k < 10
-        files_mask = strcat(PlyLoadDir, "00", str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, str(k),'*N_N_0.ply');
+        files_mask = strcat(PlyLoadDir, 'bs00', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs00', int2str(k),'*N_N_0.ply');
     elseif k < 100
-        files_mask = strcat(PlyLoadDir, "0", str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, str(k),'*N_N_0.ply');
+        files_mask = strcat(PlyLoadDir, 'bs0', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs0', int2str(k),'*N_N_0.ply');
     else        
-        files_mask = strcat(PlyLoadDir, str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, str(k),'*N_N_0.ply');
+        files_mask = strcat(PlyLoadDir, 'bs', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs', int2str(k),'*N_N_0.ply');
     end
     files  = dir (files_mask);
     [count, ~] = size(files);
+    fprintf("%d\n", count);
     normal_file = dir(normals_mask);
-    full
+    full_normal_file =  fullfile(normal_file(1).folder, normal_file(1).name);
+    current_normal_ply = pcread(full_normal_file);
+    fprintf("Normal filename: %d\n", full_normal_file);
     %Now we go through files (that we get using mask)
-
-    for i = 0:count
+    for i = 1:count
         file = files(i);
-        fprintf(">>> %s (%d of %d): to normal file %d", file.name, i, count);        
         filename = fullfile(file.folder, file.name);
-        current_file = pcread(filename);
-        tform = pcregrigid(ptCloudR45,ptCloudN0)
+        current_rotating_ply = pcread(filename);
+        [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
+        fprintf("rmse %d", rmse);
+        counter = 0
+        while rmse > 10
+            [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
+            fprintf("rmse %d", rmse);
+            counter += 1;
+        end
+        %ptCloudOut = pctransform(ptCloudOut, tform);
+        fprintf(">>> %s (%d of %d)<<<\n", file.name, i, count);        
+        pcshow(movingReg);
     end
-end
-
-for i = 1:count
-    file = files(i);
-    fprintf(">>> %s (%d of %d):", file.name, i, count);
-    filename = fullfile(file.folder, file.name);
-    pcwrite(ptCloud,filename)
 end

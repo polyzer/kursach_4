@@ -25,8 +25,18 @@ for k = 0:0
         file = files(i);
         filename = fullfile(file.folder, file.name);
         current_rotating_ply = pcread(filename);
-        tform = pcregrigid(current_rotating_ply, current_normal_ply);
+        [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
+        fprintf("rmse %d", rmse);
+        counter = 0;
+        while counter < 10
+            [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
+            %[k1,k,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
+            %current_rotating_ply = pctransform(current_rotating_ply, tform);
+            fprintf("rmse %d", rmse);
+            counter = counter + 1;
+        end
+        %ptCloudOut = pctransform(ptCloudOut, tform);
         fprintf(">>> %s (%d of %d)<<<\n", file.name, i, count);        
-        pcshow(current_rotating_ply);
+        pcshow(movingReg);
     end
 end
