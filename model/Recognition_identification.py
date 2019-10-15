@@ -17,7 +17,7 @@ files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
 timestamp = datetime.datetime.now()
-model_name = "output_pruned.caffemodel"
+model_name = "Weights.caffemodel"
 prototxt_file = "VGG_FACE_deploy.prototxt"
 log_file = open(".\\logs\\identication_" + str(timestamp).replace(' ', '_').replace(":", "_"), "a+")
 log_file.write("Experiment type: Identication\n")

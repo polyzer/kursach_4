@@ -2,8 +2,7 @@ import glob
 import os
 import shutil
 
-
-files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\Datasets\\DB\\ply"
+files_ply_path = "G:\\workspace\\irisfaceRGBD\\3DFace\\Probe"
 files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
@@ -26,7 +25,7 @@ def copyBosphorusNormalFiles(from_dir, to_dir):
     print("Normal files were copied")
 
 def copy_100(from_path, to_path):
-    for i in range(100):
+    for i in range(105):
         name_index = ""
         if i < 10:
             name_index += "00" + str(i)
@@ -39,10 +38,10 @@ def copy_100(from_path, to_path):
             file_name = os.path.basename(full_file_name)
             copy_file_name = os.path.join(to_path, file_name)
             shutil.copy(full_file_name, copy_file_name)
-        print("Files were copied")
+        print("Files by index %s were copied" %(name_index))
 
 if __name__ == "__main__":
     removeFilesfromDir(files_probe_path)
-    copy_100(from_path = files_ply_path, to_path = files_probe_path)
-    #removeFilesfromDir(files_gallery_path)
-    #copyBosphorusNormalFiles(from_dir=files_ply_path, to_dir=files_gallery_path)
+    #copy_100(from_path = files_ply_path, to_path = files_probe_path)
+    removeFilesfromDir(files_gallery_path)
+    copyBosphorusNormalFiles(from_dir=files_ply_path, to_dir=files_gallery_path)
