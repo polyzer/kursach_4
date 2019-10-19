@@ -1,5 +1,7 @@
 import re
+
 open_file = open('second.txt')
+save_errors_file = open('errors.txt', 'a')
 fringe = 0
 classes_objects = []
 for i in range(0, 104):
@@ -25,6 +27,7 @@ for line in open_file.readlines():
                 error_obj['right_matches'] += 1
             else:
                 error_obj['missed_matches'] += 1
+                save_errors_file.write(line)
 #    result = re.split(r'[[', 'Analytics Vidhya')
 open_file.close()
 summary = 0

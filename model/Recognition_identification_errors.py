@@ -12,7 +12,7 @@ import os
 import shutil
 import datetime
 
-files_ply_path = "G:\\workspace\\irisfaceRGBD\\3DFace\\Probe"
+files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\PlyRotated"
 files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
@@ -132,7 +132,7 @@ net = caffe.Net(prototxt_file, model_name,  caffe.TEST)
 
 print('done')
 
-for i in range(100):
+for i in range(48):
     name_index = ""
     if i < 10:
         name_index += "00" + str(i)
