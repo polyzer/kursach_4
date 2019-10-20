@@ -1,690 +1,1380 @@
-bs002_CR_RU_0.npy Probe Label: 1 Matched Label: 4 max similarity: [[0.6383371]] ref similarity: [[0.2054224]]
-bs002_YR_L45_0.npy Probe Label: 39 Matched Label: 4 max similarity: [[0.64293504]] ref similarity: [[0.15076701]]
-bs002_YR_L90_0.npy Probe Label: 40 Matched Label: 32 max similarity: [[0.32097322]] ref similarity: [[0.14879182]]
-bs002_YR_R30_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.6289046]] ref similarity: [[0.36101413]]
-bs002_YR_R45_0.npy Probe Label: 44 Matched Label: 4 max similarity: [[0.65738916]] ref similarity: [[0.44297373]]
-bs003_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.26997614]] ref similarity: [[0.2098221]]
-bs003_CR_RU_0.npy Probe Label: 2 Matched Label: 27 max similarity: [[0.49359587]] ref similarity: [[0.29981044]]
-bs003_O_HAIR_1.npy Probe Label: 32 Matched Label: 2 max similarity: [[0.33277005]] ref similarity: [[0.27731258]]
-bs003_PR_D_0.npy Probe Label: 34 Matched Label: 58 max similarity: [[0.3317641]] ref similarity: [[0.2422599]]
-bs003_PR_U_0.npy Probe Label: 37 Matched Label: 23 max similarity: [[0.4429441]] ref similarity: [[0.129161]]
-bs003_YR_L45_0.npy Probe Label: 43 Matched Label: 27 max similarity: [[0.5237744]] ref similarity: [[0.24899854]]
-bs003_YR_L90_0.npy Probe Label: 44 Matched Label: 93 max similarity: [[0.30206925]] ref similarity: [[0.21308565]]
-bs003_YR_R45_0.npy Probe Label: 48 Matched Label: 20 max similarity: [[0.4831857]] ref similarity: [[0.07963246]]
-bs003_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.25425857]] ref similarity: [[0.16281226]]
-bs004_CR_RD_0.npy Probe Label: 0 Matched Label: 2 max similarity: [[0.49342322]] ref similarity: [[0.23544452]]
-bs004_E_FEAR_0.npy Probe Label: 4 Matched Label: 2 max similarity: [[0.46535477]] ref similarity: [[0.46441874]]
-bs004_PR_D_0.npy Probe Label: 31 Matched Label: 24 max similarity: [[0.5478828]] ref similarity: [[0.37455946]]
-bs005_CR_RD_0.npy Probe Label: 2 Matched Label: 33 max similarity: [[0.468267]] ref similarity: [[0.37909257]]
-bs005_YR_L90_0.npy Probe Label: 44 Matched Label: 4 max similarity: [[0.42653352]] ref similarity: [[0.35886544]]
-bs005_YR_R90_0.npy Probe Label: 49 Matched Label: 20 max similarity: [[0.38552445]] ref similarity: [[0.26034072]]
-bs006_CR_RD_0.npy Probe Label: 0 Matched Label: 33 max similarity: [[0.5138477]] ref similarity: [[0.1501486]]
-bs006_CR_RU_0.npy Probe Label: 1 Matched Label: 4 max similarity: [[0.5586934]] ref similarity: [[0.10430077]]
-bs006_PR_U_0.npy Probe Label: 34 Matched Label: 99 max similarity: [[0.5385964]] ref similarity: [[0.17791423]]
-bs006_UFAU_44_0.npy Probe Label: 38 Matched Label: 22 max similarity: [[0.5655323]] ref similarity: [[0.24117127]]
-bs006_YR_L45_0.npy Probe Label: 40 Matched Label: 72 max similarity: [[0.5736836]] ref similarity: [[0.10820439]]
-bs006_YR_L90_0.npy Probe Label: 41 Matched Label: 44 max similarity: [[0.32693258]] ref similarity: [[0.11305671]]
-bs006_YR_R45_0.npy Probe Label: 45 Matched Label: 44 max similarity: [[0.527776]] ref similarity: [[0.10120735]]
-bs006_YR_R90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.27739412]] ref similarity: [[0.13418385]]
-bs007_CR_RU_0.npy Probe Label: 1 Matched Label: 5 max similarity: [[0.5326002]] ref similarity: [[0.274642]]
-bs007_PR_U_0.npy Probe Label: 33 Matched Label: 5 max similarity: [[0.5373014]] ref similarity: [[0.11347407]]
-bs007_YR_L45_0.npy Probe Label: 38 Matched Label: 5 max similarity: [[0.62105083]] ref similarity: [[0.22419658]]
-bs007_YR_L90_0.npy Probe Label: 39 Matched Label: 4 max similarity: [[0.36868203]] ref similarity: [[0.10878241]]
-bs007_YR_R45_0.npy Probe Label: 43 Matched Label: 79 max similarity: [[0.52529913]] ref similarity: [[0.1894244]]
-bs007_YR_R90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.29444385]] ref similarity: [[0.09156896]]
-bs008_IGN_INV_1.npy Probe Label: 10 Matched Label: 25 max similarity: [[0.6287973]] ref similarity: [[0.29091662]]
-bs008_YR_L45_0.npy Probe Label: 41 Matched Label: 4 max similarity: [[0.57895297]] ref similarity: [[0.3890726]]
-bs008_YR_L90_0.npy Probe Label: 42 Matched Label: 22 max similarity: [[0.3442588]] ref similarity: [[0.13033558]]
-bs008_YR_R90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.3584301]] ref similarity: [[0.15713838]]
-bs009_CR_RD_0.npy Probe Label: 0 Matched Label: 2 max similarity: [[0.3699035]] ref similarity: [[0.15305349]]
-bs009_CR_RU_0.npy Probe Label: 1 Matched Label: 4 max similarity: [[0.6690423]] ref similarity: [[0.13772458]]
-bs009_PR_U_0.npy Probe Label: 35 Matched Label: 4 max similarity: [[0.603023]] ref similarity: [[0.39734328]]
-bs009_YR_L45_0.npy Probe Label: 41 Matched Label: 4 max similarity: [[0.56610805]] ref similarity: [[0.37606275]]
-bs009_YR_L90_0.npy Probe Label: 42 Matched Label: 67 max similarity: [[0.37193042]] ref similarity: [[0.13605809]]
-bs009_YR_R30_0.npy Probe Label: 45 Matched Label: 4 max similarity: [[0.5362513]] ref similarity: [[0.14607891]]
-bs009_YR_R45_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.55078477]] ref similarity: [[0.2867005]]
-bs009_YR_R90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.29111776]] ref similarity: [[0.13715886]]
-bs010_CR_RD_0.npy Probe Label: 2 Matched Label: 85 max similarity: [[0.38254026]] ref similarity: [[0.13117452]]
-bs010_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.5640078]] ref similarity: [[0.2392312]]
-bs010_O_GLASSES_0.npy Probe Label: 28 Matched Label: 25 max similarity: [[0.5779487]] ref similarity: [[0.22819057]]
-bs010_YR_L45_0.npy Probe Label: 39 Matched Label: 4 max similarity: [[0.53294504]] ref similarity: [[0.22104517]]
-bs010_YR_L90_0.npy Probe Label: 40 Matched Label: 4 max similarity: [[0.3424006]] ref similarity: [[0.1354854]]
-bs010_YR_R20_0.npy Probe Label: 42 Matched Label: 47 max similarity: [[0.6058184]] ref similarity: [[0.30989677]]
-bs010_YR_R30_0.npy Probe Label: 43 Matched Label: 47 max similarity: [[0.5976158]] ref similarity: [[0.29438186]]
-bs010_YR_R45_0.npy Probe Label: 44 Matched Label: 23 max similarity: [[0.5068059]] ref similarity: [[0.29797995]]
-bs010_YR_R90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.2795907]] ref similarity: [[0.09012897]]
-bs011_CR_RD_0.npy Probe Label: 0 Matched Label: 58 max similarity: [[0.29821998]] ref similarity: [[0.08442056]]
-bs011_CR_RU_0.npy Probe Label: 1 Matched Label: 4 max similarity: [[0.3954265]] ref similarity: [[0.15460443]]
-bs011_PR_D_0.npy Probe Label: 32 Matched Label: 66 max similarity: [[0.3794999]] ref similarity: [[0.03651315]]
-bs011_PR_U_0.npy Probe Label: 35 Matched Label: 99 max similarity: [[0.51699483]] ref similarity: [[0.36641857]]
-bs011_YR_L45_0.npy Probe Label: 40 Matched Label: 27 max similarity: [[0.52864313]] ref similarity: [[0.14837056]]
-bs011_YR_L90_0.npy Probe Label: 41 Matched Label: 93 max similarity: [[0.31734005]] ref similarity: [[0.21178675]]
-bs011_YR_R30_0.npy Probe Label: 44 Matched Label: 20 max similarity: [[0.41388127]] ref similarity: [[0.26727977]]
-bs011_YR_R45_0.npy Probe Label: 45 Matched Label: 47 max similarity: [[0.38466755]] ref similarity: [[0.22275777]]
-bs011_YR_R90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.28247344]] ref similarity: [[0.19162229]]
-bs012_O_HAIR_0.npy Probe Label: 32 Matched Label: 97 max similarity: [[0.28222856]] ref similarity: [[0.17162097]]
-bs012_PR_U_0.npy Probe Label: 37 Matched Label: 22 max similarity: [[0.447222]] ref similarity: [[0.1441285]]
-bs012_YR_L45_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.40098527]] ref similarity: [[0.20621333]]
-bs012_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.3114645]] ref similarity: [[0.23361921]]
-bs012_YR_R30_0.npy Probe Label: 47 Matched Label: 87 max similarity: [[0.5376576]] ref similarity: [[0.38956642]]
-bs012_YR_R45_0.npy Probe Label: 48 Matched Label: 69 max similarity: [[0.44246888]] ref similarity: [[0.05654913]]
-bs012_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.2873237]] ref similarity: [[0.16140267]]
-bs013_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.30095434]] ref similarity: [[0.13638899]]
-bs013_LFAU_12_0.npy Probe Label: 15 Matched Label: 34 max similarity: [[0.40907085]] ref similarity: [[0.15216255]]
-bs013_YR_L90_0.npy Probe Label: 43 Matched Label: 2 max similarity: [[0.26845592]] ref similarity: [[0.15136015]]
-bs013_YR_R45_0.npy Probe Label: 47 Matched Label: 12 max similarity: [[0.26902878]] ref similarity: [[0.19718572]]
-bs013_YR_R90_0.npy Probe Label: 48 Matched Label: 58 max similarity: [[0.27967706]] ref similarity: [[0.09223166]]
-bs014_CR_RD_0.npy Probe Label: 2 Matched Label: 20 max similarity: [[0.4300058]] ref similarity: [[0.14855222]]
-bs014_CR_RU_0.npy Probe Label: 3 Matched Label: 43 max similarity: [[0.47651148]] ref similarity: [[0.33291396]]
-bs014_E_DISGUST_0.npy Probe Label: 5 Matched Label: 104 max similarity: [[0.5354855]] ref similarity: [[0.16210407]]
-bs014_E_HAPPY_0.npy Probe Label: 7 Matched Label: 104 max similarity: [[0.6340739]] ref similarity: [[0.25647736]]
-bs014_LFAU_12_0.npy Probe Label: 16 Matched Label: 104 max similarity: [[0.6333021]] ref similarity: [[0.2554943]]
-bs014_O_EYE_0.npy Probe Label: 30 Matched Label: 43 max similarity: [[0.54136413]] ref similarity: [[0.11766885]]
-bs014_UFAU_44_0.npy Probe Label: 40 Matched Label: 61 max similarity: [[0.45607436]] ref similarity: [[0.25313222]]
-bs014_YR_L45_0.npy Probe Label: 42 Matched Label: 20 max similarity: [[0.5479378]] ref similarity: [[0.08271609]]
-bs014_YR_L90_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.35883945]] ref similarity: [[0.25419018]]
-bs014_YR_R20_0.npy Probe Label: 45 Matched Label: 20 max similarity: [[0.55354995]] ref similarity: [[0.16546492]]
-bs014_YR_R45_0.npy Probe Label: 47 Matched Label: 20 max similarity: [[0.56072855]] ref similarity: [[0.3849041]]
-bs014_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.3078693]] ref similarity: [[0.12422243]]
-bs015_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.42892563]] ref similarity: [[0.19457808]]
-bs015_CR_RU_0.npy Probe Label: 3 Matched Label: 27 max similarity: [[0.46433222]] ref similarity: [[0.2543416]]
-bs015_LFAU_10_0.npy Probe Label: 11 Matched Label: 101 max similarity: [[0.54185164]] ref similarity: [[0.21644284]]
-bs015_O_HAIR_0.npy Probe Label: 32 Matched Label: 52 max similarity: [[0.46608955]] ref similarity: [[0.2177841]]
-bs015_PR_SU_0.npy Probe Label: 36 Matched Label: 96 max similarity: [[0.5879272]] ref similarity: [[0.0803731]]
-bs015_PR_U_0.npy Probe Label: 37 Matched Label: 4 max similarity: [[0.36501586]] ref similarity: [[0.13692325]]
-bs015_UFAU_1_0.npy Probe Label: 38 Matched Label: 18 max similarity: [[0.4177024]] ref similarity: [[0.07193601]]
-bs015_YR_L45_0.npy Probe Label: 43 Matched Label: 27 max similarity: [[0.48862666]] ref similarity: [[0.17310038]]
-bs015_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.2331901]] ref similarity: [[0.08124761]]
-bs015_YR_R30_0.npy Probe Label: 47 Matched Label: 18 max similarity: [[0.5215257]] ref similarity: [[0.3456126]]
-bs015_YR_R45_0.npy Probe Label: 48 Matched Label: 27 max similarity: [[0.5168401]] ref similarity: [[0.12480028]]
-bs015_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.268269]] ref similarity: [[0.16387814]]
-bs016_CR_RD_0.npy Probe Label: 3 Matched Label: 34 max similarity: [[0.47890693]] ref similarity: [[0.18075967]]
-bs016_CR_RU_0.npy Probe Label: 4 Matched Label: 44 max similarity: [[0.47117132]] ref similarity: [[0.46621]]
-bs016_O_EYE_0.npy Probe Label: 31 Matched Label: 9 max similarity: [[0.5859906]] ref similarity: [[0.3213662]]
-bs016_PR_D_0.npy Probe Label: 34 Matched Label: 9 max similarity: [[0.5064731]] ref similarity: [[0.50484765]]
-bs016_YR_L45_0.npy Probe Label: 43 Matched Label: 72 max similarity: [[0.5351523]] ref similarity: [[0.38147342]]
-bs016_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.27223915]] ref similarity: [[0.12824073]]
-bs016_YR_R45_0.npy Probe Label: 48 Matched Label: 20 max similarity: [[0.58721936]] ref similarity: [[0.10256802]]
-bs016_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.28525627]] ref similarity: [[0.19917482]]
-bs017_O_HAIR_0.npy Probe Label: 31 Matched Label: 97 max similarity: [[0.33424938]] ref similarity: [[0.11383345]]
-bs017_PR_U_0.npy Probe Label: 36 Matched Label: 4 max similarity: [[0.45032343]] ref similarity: [[0.29364598]]
-bs017_YR_L45_0.npy Probe Label: 41 Matched Label: 72 max similarity: [[0.6074441]] ref similarity: [[0.25084466]]
-bs017_YR_L90_0.npy Probe Label: 42 Matched Label: 4 max similarity: [[0.3459342]] ref similarity: [[0.11085109]]
-bs017_YR_R45_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.6029278]] ref similarity: [[0.21833166]]
-bs017_YR_R90_0.npy Probe Label: 47 Matched Label: 4 max similarity: [[0.36164567]] ref similarity: [[0.15739211]]
-bs018_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.3991742]] ref similarity: [[0.15995407]]
-bs018_CR_RU_0.npy Probe Label: 3 Matched Label: 27 max similarity: [[0.37307262]] ref similarity: [[0.22476164]]
-bs018_E_FEAR_0.npy Probe Label: 6 Matched Label: 53 max similarity: [[0.51569724]] ref similarity: [[0.11417638]]
-bs018_O_HAIR_0.npy Probe Label: 32 Matched Label: 52 max similarity: [[0.43478432]] ref similarity: [[0.26897085]]
-bs018_PR_D_0.npy Probe Label: 34 Matched Label: 65 max similarity: [[0.33934337]] ref similarity: [[0.15711938]]
-bs018_PR_U_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.40603435]] ref similarity: [[0.09369625]]
-bs018_YR_L45_0.npy Probe Label: 42 Matched Label: 99 max similarity: [[0.43535137]] ref similarity: [[0.18086465]]
-bs018_YR_L90_0.npy Probe Label: 43 Matched Label: 58 max similarity: [[0.25392336]] ref similarity: [[0.1102545]]
-bs018_YR_R90_0.npy Probe Label: 48 Matched Label: 58 max similarity: [[0.26426065]] ref similarity: [[0.10903014]]
-bs019_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.42636436]] ref similarity: [[0.21875711]]
-bs019_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.44859284]] ref similarity: [[0.30624402]]
-bs019_YR_L45_0.npy Probe Label: 43 Matched Label: 42 max similarity: [[0.43676305]] ref similarity: [[0.1490927]]
-bs019_YR_L90_0.npy Probe Label: 44 Matched Label: 58 max similarity: [[0.29602912]] ref similarity: [[0.16013893]]
-bs019_YR_R90_0.npy Probe Label: 49 Matched Label: 58 max similarity: [[0.23890659]] ref similarity: [[0.16509065]]
-bs020_CR_RU_1.npy Probe Label: 4 Matched Label: 100 max similarity: [[0.45631123]] ref similarity: [[0.41203937]]
-bs020_PR_SU_0.npy Probe Label: 36 Matched Label: 96 max similarity: [[0.51197696]] ref similarity: [[0.17168054]]
-bs020_PR_U_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.4980408]] ref similarity: [[0.03955087]]
-bs020_YR_L45_0.npy Probe Label: 42 Matched Label: 72 max similarity: [[0.4346102]] ref similarity: [[0.15844533]]
-bs020_YR_L90_0.npy Probe Label: 43 Matched Label: 2 max similarity: [[0.3290309]] ref similarity: [[0.22617124]]
-bs020_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.32606947]] ref similarity: [[0.0655776]]
-bs021_CAU_A22A25_0.npy Probe Label: 0 Matched Label: 2 max similarity: [[0.64635813]] ref similarity: [[0.2369217]]
-bs021_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.48007157]] ref similarity: [[0.31195924]]
-bs021_LFAU_10_0.npy Probe Label: 10 Matched Label: 7 max similarity: [[0.5760915]] ref similarity: [[0.13976717]]
-bs021_LFAU_17_0.npy Probe Label: 15 Matched Label: 4 max similarity: [[0.48963755]] ref similarity: [[0.09583205]]
-bs021_LFAU_22_0.npy Probe Label: 18 Matched Label: 22 max similarity: [[0.5282365]] ref similarity: [[0.09641127]]
-bs021_LFAU_25_0.npy Probe Label: 21 Matched Label: 67 max similarity: [[0.5431888]] ref similarity: [[0.5342177]]
-bs021_LFAU_27_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.6338367]] ref similarity: [[0.3232335]]
-bs021_LFAU_9_0.npy Probe Label: 26 Matched Label: 7 max similarity: [[0.57555944]] ref similarity: [[0.2911656]]
-bs021_UFAU_44_0.npy Probe Label: 36 Matched Label: 2 max similarity: [[0.5831826]] ref similarity: [[0.37988847]]
-bs021_YR_L45_0.npy Probe Label: 38 Matched Label: 4 max similarity: [[0.5104971]] ref similarity: [[0.24060152]]
-bs021_YR_L90_0.npy Probe Label: 39 Matched Label: 2 max similarity: [[0.30243114]] ref similarity: [[0.11028941]]
-bs021_YR_R90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.2272175]] ref similarity: [[0.08051059]]
-bs022_O_EYE_0.npy Probe Label: 30 Matched Label: 2 max similarity: [[0.50226396]] ref similarity: [[0.19834688]]
-bs022_O_MOUTH_0.npy Probe Label: 32 Matched Label: 2 max similarity: [[0.4291975]] ref similarity: [[0.174372]]
-bs022_PR_D_0.npy Probe Label: 33 Matched Label: 92 max similarity: [[0.39522445]] ref similarity: [[0.24664983]]
-bs022_YR_L90_0.npy Probe Label: 43 Matched Label: 2 max similarity: [[0.324385]] ref similarity: [[0.21491805]]
-bs022_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.30768389]] ref similarity: [[0.09227164]]
-bs023_CR_RD_0.npy Probe Label: 3 Matched Label: 39 max similarity: [[0.41792786]] ref similarity: [[0.1088755]]
-bs023_O_MOUTH_0.npy Probe Label: 33 Matched Label: 84 max similarity: [[0.5425602]] ref similarity: [[0.26943675]]
-bs023_PR_D_0.npy Probe Label: 34 Matched Label: 39 max similarity: [[0.5953884]] ref similarity: [[0.3704007]]
-bs023_PR_SD_0.npy Probe Label: 35 Matched Label: 39 max similarity: [[0.68041515]] ref similarity: [[0.2983175]]
-bs023_YR_L90_0.npy Probe Label: 44 Matched Label: 67 max similarity: [[0.30771607]] ref similarity: [[0.19461843]]
-bs023_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.32829946]] ref similarity: [[0.2050901]]
-bs024_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.34742582]] ref similarity: [[0.29603454]]
-bs024_CR_RU_0.npy Probe Label: 3 Matched Label: 27 max similarity: [[0.52070653]] ref similarity: [[0.3525604]]
-bs024_O_HAIR_0.npy Probe Label: 32 Matched Label: 2 max similarity: [[0.2791775]] ref similarity: [[0.22420895]]
-bs024_PR_U_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.55449975]] ref similarity: [[0.17049964]]
-bs024_YR_L45_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.49802968]] ref similarity: [[0.19347635]]
-bs024_YR_L90_0.npy Probe Label: 44 Matched Label: 65 max similarity: [[0.29833353]] ref similarity: [[0.12472278]]
-bs024_YR_R45_0.npy Probe Label: 48 Matched Label: 47 max similarity: [[0.49051568]] ref similarity: [[0.10580655]]
-bs024_YR_R90_0.npy Probe Label: 49 Matched Label: 38 max similarity: [[0.30010235]] ref similarity: [[0.17467564]]
-bs025_CR_RD_0.npy Probe Label: 2 Matched Label: 39 max similarity: [[0.45235792]] ref similarity: [[0.29799291]]
-bs025_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.5164274]] ref similarity: [[0.23493487]]
-bs025_YR_L45_0.npy Probe Label: 40 Matched Label: 27 max similarity: [[0.5365229]] ref similarity: [[0.13277146]]
-bs025_YR_L90_0.npy Probe Label: 41 Matched Label: 2 max similarity: [[0.35767984]] ref similarity: [[0.22710168]]
-bs025_YR_R45_0.npy Probe Label: 45 Matched Label: 27 max similarity: [[0.6121107]] ref similarity: [[0.22451738]]
-bs025_YR_R90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.32107955]] ref similarity: [[0.19444725]]
-bs026_CR_RU_0.npy Probe Label: 3 Matched Label: 20 max similarity: [[0.42374086]] ref similarity: [[0.29259717]]
-bs026_O_HAIR_0.npy Probe Label: 32 Matched Label: 67 max similarity: [[0.2770177]] ref similarity: [[0.22347173]]
-bs026_PR_U_0.npy Probe Label: 37 Matched Label: 27 max similarity: [[0.5671476]] ref similarity: [[0.05816035]]
-bs026_YR_L45_0.npy Probe Label: 43 Matched Label: 27 max similarity: [[0.49932158]] ref similarity: [[0.22047614]]
-bs026_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.28092697]] ref similarity: [[0.21188253]]
-bs026_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.25592688]] ref similarity: [[0.18144953]]
-bs027_O_EYE_0.npy Probe Label: 30 Matched Label: 4 max similarity: [[0.59240377]] ref similarity: [[0.18416926]]
-bs027_O_MOUTH_0.npy Probe Label: 32 Matched Label: 65 max similarity: [[0.3995278]] ref similarity: [[0.1363289]]
-bs027_YR_L90_0.npy Probe Label: 42 Matched Label: 2 max similarity: [[0.3070827]] ref similarity: [[0.07454731]]
-bs027_YR_R90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.30275643]] ref similarity: [[0.13110992]]
-bs028_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.42447087]] ref similarity: [[0.18457949]]
-bs028_CR_RU_0.npy Probe Label: 3 Matched Label: 8 max similarity: [[0.3764259]] ref similarity: [[0.15695897]]
-bs028_LFAU_34_0.npy Probe Label: 28 Matched Label: 16 max similarity: [[0.5189914]] ref similarity: [[0.48651809]]
-bs028_O_GLASSES_0.npy Probe Label: 31 Matched Label: 27 max similarity: [[0.6034286]] ref similarity: [[0.17559361]]
-bs028_PR_U_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.40939984]] ref similarity: [[0.0825396]]
-bs028_UFAU_44_0.npy Probe Label: 41 Matched Label: 25 max similarity: [[0.5298023]] ref similarity: [[0.36356324]]
-bs028_YR_L45_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.36401817]] ref similarity: [[0.22076437]]
-bs028_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.30776656]] ref similarity: [[0.1928783]]
-bs028_YR_R45_0.npy Probe Label: 48 Matched Label: 41 max similarity: [[0.40826508]] ref similarity: [[0.17202291]]
-bs028_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.28598708]] ref similarity: [[0.19294786]]
-bs029_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.3756238]] ref similarity: [[0.29368648]]
-bs029_CR_RU_0.npy Probe Label: 3 Matched Label: 57 max similarity: [[0.5544836]] ref similarity: [[0.3480648]]
-bs029_O_HAIR_0.npy Probe Label: 30 Matched Label: 24 max similarity: [[0.30380273]] ref similarity: [[0.13855854]]
-bs029_PR_U_0.npy Probe Label: 35 Matched Label: 25 max similarity: [[0.69496757]] ref similarity: [[0.3840625]]
-bs029_YR_L45_0.npy Probe Label: 40 Matched Label: 27 max similarity: [[0.5719712]] ref similarity: [[0.14601845]]
-bs029_YR_L90_0.npy Probe Label: 41 Matched Label: 2 max similarity: [[0.30988413]] ref similarity: [[0.2669929]]
-bs029_YR_R45_0.npy Probe Label: 45 Matched Label: 47 max similarity: [[0.48321548]] ref similarity: [[0.19945438]]
-bs029_YR_R90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.25146103]] ref similarity: [[0.14310427]]
-bs030_CR_RD_0.npy Probe Label: 3 Matched Label: 65 max similarity: [[0.40501115]] ref similarity: [[0.11381005]]
-bs030_CR_RU_0.npy Probe Label: 4 Matched Label: 4 max similarity: [[0.57854015]] ref similarity: [[0.57854015]]
-bs030_LFAU_10_0.npy Probe Label: 11 Matched Label: 55 max similarity: [[0.6651401]] ref similarity: [[0.17142014]]
-bs030_YR_L45_0.npy Probe Label: 44 Matched Label: 99 max similarity: [[0.468962]] ref similarity: [[0.28083453]]
-bs030_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.2810743]] ref similarity: [[0.06738909]]
-bs030_YR_R90_0.npy Probe Label: 50 Matched Label: 53 max similarity: [[0.28115854]] ref similarity: [[0.2039195]]
-bs031_YR_L90_0.npy Probe Label: 44 Matched Label: 93 max similarity: [[0.3006806]] ref similarity: [[0.24631111]]
-bs031_YR_R45_0.npy Probe Label: 48 Matched Label: 20 max similarity: [[0.48571387]] ref similarity: [[0.08335841]]
-bs031_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.26991758]] ref similarity: [[0.18615483]]
-bs032_CR_RD_0.npy Probe Label: 2 Matched Label: 2 max similarity: [[0.45598525]] ref similarity: [[0.45598525]]
-bs032_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.5633198]] ref similarity: [[0.29756254]]
-bs032_PR_D_0.npy Probe Label: 34 Matched Label: 33 max similarity: [[0.468722]] ref similarity: [[0.32542548]]
-bs032_PR_U_0.npy Probe Label: 37 Matched Label: 23 max similarity: [[0.554861]] ref similarity: [[0.1022339]]
-bs032_YR_L90_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.36349243]] ref similarity: [[0.2024898]]
-bs032_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.3208985]] ref similarity: [[0.11373386]]
-bs033_CR_RD_0.npy Probe Label: 3 Matched Label: 47 max similarity: [[0.37029856]] ref similarity: [[0.16011246]]
-bs033_CR_RU_0.npy Probe Label: 4 Matched Label: 4 max similarity: [[0.53171706]] ref similarity: [[0.53171706]]
-bs033_PR_U_0.npy Probe Label: 38 Matched Label: 64 max similarity: [[0.4855309]] ref similarity: [[0.2033093]]
-bs033_YR_L45_0.npy Probe Label: 44 Matched Label: 47 max similarity: [[0.5391123]] ref similarity: [[0.27802256]]
-bs033_YR_L90_0.npy Probe Label: 45 Matched Label: 97 max similarity: [[0.26306117]] ref similarity: [[0.07810037]]
-bs033_YR_R90_0.npy Probe Label: 50 Matched Label: 77 max similarity: [[0.2662271]] ref similarity: [[0.13226414]]
-bs034_CR_RU_0.npy Probe Label: 3 Matched Label: 20 max similarity: [[0.4937029]] ref similarity: [[0.33202398]]
-bs034_PR_SD_0.npy Probe Label: 35 Matched Label: 24 max similarity: [[0.5141903]] ref similarity: [[0.12889636]]
-bs034_PR_U_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.45247847]] ref similarity: [[0.04496751]]
-bs034_YR_L45_0.npy Probe Label: 42 Matched Label: 72 max similarity: [[0.5035663]] ref similarity: [[0.21649417]]
-bs034_YR_L90_0.npy Probe Label: 43 Matched Label: 2 max similarity: [[0.2606653]] ref similarity: [[0.14455906]]
-bs034_YR_R90_0.npy Probe Label: 48 Matched Label: 77 max similarity: [[0.2514512]] ref similarity: [[0.08803991]]
-bs035_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.38695344]] ref similarity: [[0.14685795]]
-bs035_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.55968094]] ref similarity: [[0.22278151]]
-bs035_O_EYE_0.npy Probe Label: 31 Matched Label: 4 max similarity: [[0.44445735]] ref similarity: [[0.1873925]]
-bs035_PR_D_0.npy Probe Label: 34 Matched Label: 65 max similarity: [[0.4316222]] ref similarity: [[0.22540279]]
-bs035_PR_U_0.npy Probe Label: 37 Matched Label: 22 max similarity: [[0.45056608]] ref similarity: [[0.15140897]]
-bs035_YR_L45_0.npy Probe Label: 42 Matched Label: 4 max similarity: [[0.6299027]] ref similarity: [[0.28896663]]
-bs035_YR_L90_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.29973364]] ref similarity: [[0.14953543]]
-bs035_YR_R30_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.6326376]] ref similarity: [[0.24822083]]
-bs035_YR_R45_0.npy Probe Label: 47 Matched Label: 4 max similarity: [[0.4791174]] ref similarity: [[0.29748636]]
-bs035_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.32201982]] ref similarity: [[0.11250554]]
-bs036_CR_RD_0.npy Probe Label: 3 Matched Label: 65 max similarity: [[0.3614807]] ref similarity: [[0.1099697]]
-bs036_CR_RU_0.npy Probe Label: 4 Matched Label: 4 max similarity: [[0.46743262]] ref similarity: [[0.46743262]]
-bs036_O_MOUTH_0.npy Probe Label: 34 Matched Label: 2 max similarity: [[0.46344858]] ref similarity: [[0.15552068]]
-bs036_PR_D_0.npy Probe Label: 35 Matched Label: 65 max similarity: [[0.4415952]] ref similarity: [[0.15164141]]
-bs036_YR_L45_0.npy Probe Label: 44 Matched Label: 49 max similarity: [[0.41534704]] ref similarity: [[0.36325598]]
-bs036_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.3262942]] ref similarity: [[0.06128627]]
-bs036_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.31345326]] ref similarity: [[0.13778992]]
-bs037_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.4190474]] ref similarity: [[0.2594493]]
-bs037_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.5441831]] ref similarity: [[0.34060407]]
-bs037_PR_U_0.npy Probe Label: 37 Matched Label: 19 max similarity: [[0.3781194]] ref similarity: [[0.3238121]]
-bs037_YR_L45_0.npy Probe Label: 43 Matched Label: 25 max similarity: [[0.56024075]] ref similarity: [[0.22608644]]
-bs037_YR_L90_0.npy Probe Label: 44 Matched Label: 58 max similarity: [[0.27119142]] ref similarity: [[0.17519107]]
-bs037_YR_R90_0.npy Probe Label: 49 Matched Label: 60 max similarity: [[0.25689957]] ref similarity: [[0.11690588]]
-bs038_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.3614796]] ref similarity: [[0.22296543]]
-bs038_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.48324293]] ref similarity: [[0.23556402]]
-bs038_E_FEAR_0.npy Probe Label: 6 Matched Label: 61 max similarity: [[0.49987286]] ref similarity: [[0.23604709]]
-bs038_PR_D_0.npy Probe Label: 33 Matched Label: 66 max similarity: [[0.33482546]] ref similarity: [[0.22914001]]
-bs038_PR_SD_0.npy Probe Label: 34 Matched Label: 66 max similarity: [[0.49398643]] ref similarity: [[0.23388675]]
-bs038_PR_U_0.npy Probe Label: 36 Matched Label: 97 max similarity: [[0.39250952]] ref similarity: [[0.20218746]]
-bs038_YR_L45_0.npy Probe Label: 42 Matched Label: 4 max similarity: [[0.53694665]] ref similarity: [[0.21426365]]
-bs038_YR_L90_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.34271467]] ref similarity: [[0.18398294]]
-bs038_YR_R45_0.npy Probe Label: 47 Matched Label: 81 max similarity: [[0.3481984]] ref similarity: [[0.30211526]]
-bs039_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.4383808]] ref similarity: [[0.26026362]]
-bs039_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.51219]] ref similarity: [[0.25178635]]
-bs039_LFAU_9_0.npy Probe Label: 28 Matched Label: 7 max similarity: [[0.66453624]] ref similarity: [[0.22378406]]
-bs039_PR_D_0.npy Probe Label: 32 Matched Label: 80 max similarity: [[0.42639512]] ref similarity: [[0.05371579]]
-bs039_PR_U_0.npy Probe Label: 35 Matched Label: 99 max similarity: [[0.49558857]] ref similarity: [[0.38881654]]
-bs039_YR_L45_0.npy Probe Label: 41 Matched Label: 27 max similarity: [[0.6018101]] ref similarity: [[0.4835488]]
-bs039_YR_L90_0.npy Probe Label: 42 Matched Label: 2 max similarity: [[0.27491793]] ref similarity: [[0.08810057]]
-bs039_YR_R90_0.npy Probe Label: 47 Matched Label: 58 max similarity: [[0.245298]] ref similarity: [[0.12006521]]
-bs040_CR_RU_0.npy Probe Label: 3 Matched Label: 32 max similarity: [[0.5320463]] ref similarity: [[0.17675984]]
-bs040_YR_L45_0.npy Probe Label: 44 Matched Label: 8 max similarity: [[0.45363018]] ref similarity: [[0.20628437]]
-bs040_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.28365022]] ref similarity: [[0.07071611]]
-bs040_YR_R45_0.npy Probe Label: 49 Matched Label: 79 max similarity: [[0.4643304]] ref similarity: [[0.15666278]]
-bs040_YR_R90_0.npy Probe Label: 50 Matched Label: 58 max similarity: [[0.2724716]] ref similarity: [[0.12489914]]
-bs041_CR_RD_0.npy Probe Label: 2 Matched Label: 40 max similarity: [[0.47948015]] ref similarity: [[0.42044705]]
-bs041_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.5562491]] ref similarity: [[0.25035265]]
-bs041_E_ANGER_0.npy Probe Label: 4 Matched Label: 40 max similarity: [[0.4836953]] ref similarity: [[0.20141403]]
-bs041_E_DISGUST_0.npy Probe Label: 5 Matched Label: 7 max similarity: [[0.44440195]] ref similarity: [[0.28283483]]
-bs041_E_FEAR_0.npy Probe Label: 6 Matched Label: 29 max similarity: [[0.54255736]] ref similarity: [[0.35046]]
-bs041_E_SURPRISE_0.npy Probe Label: 9 Matched Label: 17 max similarity: [[0.6288054]] ref similarity: [[0.40341944]]
-bs041_LFAU_18_0.npy Probe Label: 19 Matched Label: 4 max similarity: [[0.542801]] ref similarity: [[0.19650812]]
-bs041_O_MOUTH_0.npy Probe Label: 34 Matched Label: 39 max similarity: [[0.51352394]] ref similarity: [[0.32306162]]
-bs041_PR_U_0.npy Probe Label: 38 Matched Label: 99 max similarity: [[0.39663443]] ref similarity: [[0.26940972]]
-bs041_UFAU_2_0.npy Probe Label: 40 Matched Label: 27 max similarity: [[0.6619478]] ref similarity: [[0.1622802]]
-bs041_UFAU_44_0.npy Probe Label: 42 Matched Label: 40 max similarity: [[0.5352331]] ref similarity: [[0.3669845]]
-bs041_UFAU_4_0.npy Probe Label: 43 Matched Label: 26 max similarity: [[0.57748264]] ref similarity: [[0.24886535]]
-bs041_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.2554319]] ref similarity: [[0.07587269]]
-bs041_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.2518769]] ref similarity: [[0.15757707]]
-bs042_CR_RD_0.npy Probe Label: 2 Matched Label: 58 max similarity: [[0.47388068]] ref similarity: [[0.41467202]]
-bs042_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.59586704]] ref similarity: [[0.30040753]]
-bs042_PR_U_0.npy Probe Label: 36 Matched Label: 25 max similarity: [[0.43626451]] ref similarity: [[0.16963518]]
-bs042_YR_L45_0.npy Probe Label: 42 Matched Label: 4 max similarity: [[0.49590454]] ref similarity: [[0.3676405]]
-bs042_YR_L90_0.npy Probe Label: 43 Matched Label: 2 max similarity: [[0.26587856]] ref similarity: [[0.11711707]]
-bs042_YR_R30_0.npy Probe Label: 46 Matched Label: 41 max similarity: [[0.5497758]] ref similarity: [[0.24454094]]
-bs042_YR_R45_0.npy Probe Label: 47 Matched Label: 41 max similarity: [[0.5192997]] ref similarity: [[0.47576225]]
-bs042_YR_R90_0.npy Probe Label: 48 Matched Label: 2 max similarity: [[0.2707886]] ref similarity: [[0.08888908]]
-bs043_CR_RD_0.npy Probe Label: 3 Matched Label: 2 max similarity: [[0.46630198]] ref similarity: [[0.27326784]]
-bs043_CR_RU_0.npy Probe Label: 4 Matched Label: 4 max similarity: [[0.4871767]] ref similarity: [[0.4871767]]
-bs043_E_FEAR_0.npy Probe Label: 7 Matched Label: 2 max similarity: [[0.53433436]] ref similarity: [[0.24625081]]
-bs043_E_SURPRISE_0.npy Probe Label: 10 Matched Label: 60 max similarity: [[0.5576558]] ref similarity: [[0.38149345]]
-bs043_PR_U_0.npy Probe Label: 39 Matched Label: 99 max similarity: [[0.43721092]] ref similarity: [[0.22983572]]
-bs043_UFAU_43_0.npy Probe Label: 42 Matched Label: 60 max similarity: [[0.6293154]] ref similarity: [[0.22126746]]
-bs043_UFAU_44_0.npy Probe Label: 43 Matched Label: 8 max similarity: [[0.5630494]] ref similarity: [[0.3645442]]
-bs043_UFAU_4_0.npy Probe Label: 44 Matched Label: 32 max similarity: [[0.6085106]] ref similarity: [[0.41335633]]
-bs043_YR_L45_0.npy Probe Label: 45 Matched Label: 96 max similarity: [[0.50538146]] ref similarity: [[0.15687719]]
-bs043_YR_L90_0.npy Probe Label: 46 Matched Label: 93 max similarity: [[0.29949415]] ref similarity: [[0.10425296]]
-bs043_YR_R90_0.npy Probe Label: 51 Matched Label: 60 max similarity: [[0.33304936]] ref similarity: [[0.07340246]]
-bs044_CR_RD_0.npy Probe Label: 2 Matched Label: 93 max similarity: [[0.30420557]] ref similarity: [[0.21622154]]
-bs044_CR_RU_0.npy Probe Label: 3 Matched Label: 4 max similarity: [[0.45397168]] ref similarity: [[0.3176334]]
-bs044_PR_D_0.npy Probe Label: 35 Matched Label: 9 max similarity: [[0.58819264]] ref similarity: [[0.21193822]]
-bs044_PR_U_0.npy Probe Label: 38 Matched Label: 99 max similarity: [[0.48175144]] ref similarity: [[0.20313758]]
-bs044_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.2977742]] ref similarity: [[0.05157271]]
-bs044_YR_R45_0.npy Probe Label: 49 Matched Label: 27 max similarity: [[0.53422093]] ref similarity: [[0.3099236]]
-bs044_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.27164647]] ref similarity: [[0.12727354]]
-bs045_CR_RD_0.npy Probe Label: 3 Matched Label: 39 max similarity: [[0.39588767]] ref similarity: [[0.1090067]]
-bs045_CR_RU_0.npy Probe Label: 4 Matched Label: 101 max similarity: [[0.45928067]] ref similarity: [[0.28652316]]
-bs045_O_GLASSES_0.npy Probe Label: 33 Matched Label: 65 max similarity: [[0.3506471]] ref similarity: [[0.16363809]]
-bs045_O_HAIR_0.npy Probe Label: 34 Matched Label: 93 max similarity: [[0.40664208]] ref similarity: [[0.21645728]]
-bs045_PR_D_0.npy Probe Label: 36 Matched Label: 65 max similarity: [[0.3222034]] ref similarity: [[0.08137795]]
-bs045_PR_U_0.npy Probe Label: 39 Matched Label: 23 max similarity: [[0.4150129]] ref similarity: [[0.19989386]]
-bs045_YR_L45_0.npy Probe Label: 45 Matched Label: 27 max similarity: [[0.49459368]] ref similarity: [[0.4062441]]
-bs045_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.28921017]] ref similarity: [[0.15425761]]
-bs045_YR_R20_0.npy Probe Label: 48 Matched Label: 16 max similarity: [[0.61002886]] ref similarity: [[0.21956155]]
-bs045_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.2383236]] ref similarity: [[0.04448223]]
-bs046_CR_RD_0.npy Probe Label: 2 Matched Label: 65 max similarity: [[0.441117]] ref similarity: [[0.20237322]]
-bs046_CR_RU_0.npy Probe Label: 3 Matched Label: 27 max similarity: [[0.44976264]] ref similarity: [[0.21073624]]
-bs046_LFAU_28_0.npy Probe Label: 27 Matched Label: 27 max similarity: [[0.5445665]] ref similarity: [[0.5445665]]
-bs046_O_GLASSES_0.npy Probe Label: 32 Matched Label: 27 max similarity: [[0.6932363]] ref similarity: [[0.20105883]]
-bs046_O_HAIR_0.npy Probe Label: 33 Matched Label: 93 max similarity: [[0.41385025]] ref similarity: [[0.15025489]]
-bs046_PR_SU_0.npy Probe Label: 37 Matched Label: 99 max similarity: [[0.44380206]] ref similarity: [[0.0818181]]
-bs046_PR_U_0.npy Probe Label: 38 Matched Label: 27 max similarity: [[0.37714213]] ref similarity: [[0.22531341]]
-bs046_YR_L45_0.npy Probe Label: 44 Matched Label: 27 max similarity: [[0.42991838]] ref similarity: [[0.22566546]]
-bs046_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.25730604]] ref similarity: [[0.07186675]]
-bs046_YR_R90_0.npy Probe Label: 50 Matched Label: 58 max similarity: [[0.2527793]] ref similarity: [[0.14595675]]
-bs047_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.3932976]] ref similarity: [[0.2447803]]
-bs047_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.5631467]] ref similarity: [[0.32274014]]
-bs047_LFAU_9_0.npy Probe Label: 8 Matched Label: 34 max similarity: [[0.5619571]] ref similarity: [[0.42854527]]
-bs047_O_MOUTH_0.npy Probe Label: 14 Matched Label: 93 max similarity: [[0.53130376]] ref similarity: [[0.3359414]]
-bs047_PR_SU_0.npy Probe Label: 17 Matched Label: 99 max similarity: [[0.53400326]] ref similarity: [[0.18629256]]
-bs047_PR_U_0.npy Probe Label: 18 Matched Label: 99 max similarity: [[0.4404922]] ref similarity: [[0.27134916]]
-bs047_YR_L45_0.npy Probe Label: 22 Matched Label: 27 max similarity: [[0.48957157]] ref similarity: [[0.21880472]]
-bs047_YR_L90_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.296593]] ref similarity: [[0.18024796]]
-bs047_YR_R90_0.npy Probe Label: 28 Matched Label: 38 max similarity: [[0.23655494]] ref similarity: [[0.13141593]]
-bs048_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.42549932]] ref similarity: [[0.2805735]]
-bs048_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.4133316]] ref similarity: [[0.31253532]]
-bs048_PR_SU_0.npy Probe Label: 18 Matched Label: 35 max similarity: [[0.49990663]] ref similarity: [[0.25024927]]
-bs048_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.44315612]] ref similarity: [[0.11987771]]
-bs048_YR_L45_0.npy Probe Label: 23 Matched Label: 41 max similarity: [[0.48130676]] ref similarity: [[0.31188935]]
-bs048_YR_L90_0.npy Probe Label: 24 Matched Label: 41 max similarity: [[0.2745837]] ref similarity: [[0.10859422]]
-bs048_YR_R45_0.npy Probe Label: 28 Matched Label: 41 max similarity: [[0.42246205]] ref similarity: [[0.35670745]]
-bs048_YR_R90_0.npy Probe Label: 29 Matched Label: 58 max similarity: [[0.2680207]] ref similarity: [[0.06527467]]
-bs049_CR_RD_0.npy Probe Label: 1 Matched Label: 65 max similarity: [[0.3162759]] ref similarity: [[0.2005958]]
-bs049_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.4702484]] ref similarity: [[0.09273984]]
-bs049_YR_L90_0.npy Probe Label: 24 Matched Label: 4 max similarity: [[0.38788146]] ref similarity: [[0.13192932]]
-bs049_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.32141605]] ref similarity: [[0.10310015]]
-bs050_PR_U_0.npy Probe Label: 18 Matched Label: 99 max similarity: [[0.3910916]] ref similarity: [[0.24854298]]
-bs050_YR_L45_0.npy Probe Label: 22 Matched Label: 8 max similarity: [[0.400308]] ref similarity: [[0.36265904]]
-bs050_YR_L90_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.29470676]] ref similarity: [[0.12013537]]
-bs050_YR_R90_0.npy Probe Label: 28 Matched Label: 65 max similarity: [[0.24567369]] ref similarity: [[0.12219135]]
-bs051_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.38239038]] ref similarity: [[0.23973605]]
-bs051_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.511415]] ref similarity: [[0.20544758]]
-bs051_PR_D_0.npy Probe Label: 16 Matched Label: 33 max similarity: [[0.38592112]] ref similarity: [[0.1355526]]
-bs051_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.5004371]] ref similarity: [[0.18297233]]
-bs051_YR_L45_0.npy Probe Label: 23 Matched Label: 25 max similarity: [[0.48700845]] ref similarity: [[0.35579002]]
-bs051_YR_L90_0.npy Probe Label: 24 Matched Label: 97 max similarity: [[0.24539573]] ref similarity: [[0.12691417]]
-bs051_YR_R45_0.npy Probe Label: 28 Matched Label: 47 max similarity: [[0.50196815]] ref similarity: [[0.18462029]]
-bs051_YR_R90_0.npy Probe Label: 29 Matched Label: 77 max similarity: [[0.2520342]] ref similarity: [[0.09193126]]
-bs052_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.3608775]] ref similarity: [[0.24950968]]
-bs052_CR_RU_0.npy Probe Label: 2 Matched Label: 20 max similarity: [[0.4789545]] ref similarity: [[0.21937309]]
-bs052_PR_D_0.npy Probe Label: 16 Matched Label: 65 max similarity: [[0.3573735]] ref similarity: [[0.21758392]]
-bs052_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.38519365]] ref similarity: [[0.13087314]]
-bs052_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.45660135]] ref similarity: [[0.22763121]]
-bs052_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.280329]] ref similarity: [[0.1447311]]
-bs052_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.25396138]] ref similarity: [[0.07787197]]
-bs053_CR_RD_0.npy Probe Label: 1 Matched Label: 60 max similarity: [[0.3162144]] ref similarity: [[0.2518857]]
-bs053_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.52036864]] ref similarity: [[0.29272068]]
-bs053_LFAU_9_0.npy Probe Label: 8 Matched Label: 79 max similarity: [[0.33084488]] ref similarity: [[0.2633404]]
-bs053_O_EYE_0.npy Probe Label: 12 Matched Label: 96 max similarity: [[0.4646165]] ref similarity: [[0.23455794]]
-bs053_O_GLASSES_0.npy Probe Label: 13 Matched Label: 4 max similarity: [[0.48949704]] ref similarity: [[0.13154292]]
-bs053_O_HAIR_0.npy Probe Label: 14 Matched Label: 2 max similarity: [[0.27966672]] ref similarity: [[0.21024065]]
-bs053_O_MOUTH_0.npy Probe Label: 15 Matched Label: 14 max similarity: [[0.4767443]] ref similarity: [[0.24650936]]
-bs053_PR_D_0.npy Probe Label: 16 Matched Label: 24 max similarity: [[0.47636458]] ref similarity: [[0.1730573]]
-bs053_PR_SD_0.npy Probe Label: 17 Matched Label: 24 max similarity: [[0.4583097]] ref similarity: [[0.4193948]]
-bs053_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.38768005]] ref similarity: [[0.1428472]]
-bs053_YR_L90_0.npy Probe Label: 24 Matched Label: 58 max similarity: [[0.26706773]] ref similarity: [[0.10396099]]
-bs053_YR_R90_0.npy Probe Label: 29 Matched Label: 58 max similarity: [[0.26665354]] ref similarity: [[0.06845362]]
-bs054_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.6174388]] ref similarity: [[0.40565723]]
-bs054_O_MOUTH_0.npy Probe Label: 15 Matched Label: 79 max similarity: [[0.47989333]] ref similarity: [[0.11072171]]
-bs054_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.51957846]] ref similarity: [[0.20301943]]
-bs054_YR_L45_0.npy Probe Label: 23 Matched Label: 44 max similarity: [[0.5391582]] ref similarity: [[0.31101754]]
-bs054_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.35132265]] ref similarity: [[0.14757234]]
-bs054_YR_R45_0.npy Probe Label: 28 Matched Label: 4 max similarity: [[0.6059053]] ref similarity: [[0.25751415]]
-bs054_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.35276002]] ref similarity: [[0.12900409]]
-bs055_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.4061718]] ref similarity: [[0.25004074]]
-bs055_CR_RU_0.npy Probe Label: 2 Matched Label: 85 max similarity: [[0.46346316]] ref similarity: [[0.20832081]]
-bs055_PR_U_0.npy Probe Label: 19 Matched Label: 23 max similarity: [[0.48910558]] ref similarity: [[0.18083799]]
-bs055_YR_L45_0.npy Probe Label: 23 Matched Label: 41 max similarity: [[0.4855589]] ref similarity: [[0.33005404]]
-bs055_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.25456685]] ref similarity: [[0.10481638]]
-bs055_YR_R45_0.npy Probe Label: 28 Matched Label: 65 max similarity: [[0.38520196]] ref similarity: [[0.18817584]]
-bs055_YR_R90_0.npy Probe Label: 29 Matched Label: 53 max similarity: [[0.3505228]] ref similarity: [[0.08946681]]
-bs056_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.5021181]] ref similarity: [[0.2871917]]
-bs056_PR_SU_0.npy Probe Label: 17 Matched Label: 99 max similarity: [[0.49075347]] ref similarity: [[0.13972259]]
-bs056_PR_U_0.npy Probe Label: 18 Matched Label: 99 max similarity: [[0.4800751]] ref similarity: [[0.29490006]]
-bs056_YR_L90_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.26719028]] ref similarity: [[0.1632542]]
-bs056_YR_R90_0.npy Probe Label: 28 Matched Label: 53 max similarity: [[0.2524813]] ref similarity: [[0.17637244]]
-bs057_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.31046358]] ref similarity: [[0.24061023]]
-bs057_O_HAIR_0.npy Probe Label: 14 Matched Label: 20 max similarity: [[0.53233653]] ref similarity: [[0.32736623]]
-bs057_PR_U_0.npy Probe Label: 19 Matched Label: 23 max similarity: [[0.45041162]] ref similarity: [[0.06679386]]
-bs057_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.61399215]] ref similarity: [[0.3473998]]
-bs057_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.26956388]] ref similarity: [[0.11402607]]
-bs057_YR_R45_0.npy Probe Label: 28 Matched Label: 70 max similarity: [[0.41808566]] ref similarity: [[0.2053279]]
-bs057_YR_R90_0.npy Probe Label: 29 Matched Label: 38 max similarity: [[0.21665898]] ref similarity: [[0.07218811]]
-bs058_PR_U_0.npy Probe Label: 19 Matched Label: 25 max similarity: [[0.37442294]] ref similarity: [[0.17121138]]
-bs059_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.35079736]] ref similarity: [[0.2682145]]
-bs059_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.46865362]] ref similarity: [[0.39229685]]
-bs059_O_EYE_0.npy Probe Label: 12 Matched Label: 9 max similarity: [[0.559733]] ref similarity: [[0.3127039]]
-bs059_O_HAIR_0.npy Probe Label: 14 Matched Label: 9 max similarity: [[0.3558842]] ref similarity: [[0.17151265]]
-bs059_PR_D_0.npy Probe Label: 16 Matched Label: 92 max similarity: [[0.47243407]] ref similarity: [[0.1463984]]
-bs059_PR_U_0.npy Probe Label: 19 Matched Label: 81 max similarity: [[0.4658034]] ref similarity: [[0.1950783]]
-bs059_YR_L45_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.38994443]] ref similarity: [[0.2645327]]
-bs059_YR_L90_0.npy Probe Label: 24 Matched Label: 4 max similarity: [[0.285088]] ref similarity: [[0.10205483]]
-bs059_YR_R30_0.npy Probe Label: 27 Matched Label: 87 max similarity: [[0.49845374]] ref similarity: [[0.1538912]]
-bs059_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.30020726]] ref similarity: [[0.08366923]]
-bs060_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.3279527]] ref similarity: [[0.26940557]]
-bs060_CR_RU_0.npy Probe Label: 2 Matched Label: 32 max similarity: [[0.4832539]] ref similarity: [[0.4140823]]
-bs060_O_EYE_0.npy Probe Label: 12 Matched Label: 50 max similarity: [[0.47058636]] ref similarity: [[0.43912643]]
-bs060_O_HAIR_0.npy Probe Label: 14 Matched Label: 2 max similarity: [[0.34092438]] ref similarity: [[0.24844214]]
-bs060_PR_D_0.npy Probe Label: 16 Matched Label: 56 max similarity: [[0.2951874]] ref similarity: [[0.1492365]]
-bs060_PR_U_0.npy Probe Label: 19 Matched Label: 25 max similarity: [[0.34216017]] ref similarity: [[0.15649575]]
-bs060_YR_L45_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.49259382]] ref similarity: [[0.30616775]]
-bs060_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.31119505]] ref similarity: [[0.1728765]]
-bs060_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.26225865]] ref similarity: [[0.08044328]]
-bs061_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.3778497]] ref similarity: [[0.29490596]]
-bs061_CR_RU_0.npy Probe Label: 2 Matched Label: 41 max similarity: [[0.5572856]] ref similarity: [[0.37711394]]
-bs061_LFAU_9_0.npy Probe Label: 8 Matched Label: 40 max similarity: [[0.5937929]] ref similarity: [[0.4229574]]
-bs061_PR_D_0.npy Probe Label: 15 Matched Label: 24 max similarity: [[0.36445227]] ref similarity: [[0.1258942]]
-bs061_PR_U_0.npy Probe Label: 18 Matched Label: 27 max similarity: [[0.5323647]] ref similarity: [[0.28781563]]
-bs061_YR_L45_0.npy Probe Label: 22 Matched Label: 27 max similarity: [[0.49898976]] ref similarity: [[0.23787604]]
-bs061_YR_L90_0.npy Probe Label: 23 Matched Label: 58 max similarity: [[0.27775258]] ref similarity: [[0.12890081]]
-bs061_YR_R90_0.npy Probe Label: 28 Matched Label: 89 max similarity: [[0.23365015]] ref similarity: [[0.14519791]]
-bs062_CR_RD_0.npy Probe Label: 1 Matched Label: 95 max similarity: [[0.40641493]] ref similarity: [[0.23903792]]
-bs062_CR_RU_0.npy Probe Label: 2 Matched Label: 2 max similarity: [[0.3885667]] ref similarity: [[0.3885667]]
-bs062_O_HAIR_0.npy Probe Label: 14 Matched Label: 93 max similarity: [[0.32654476]] ref similarity: [[0.15277234]]
-bs062_PR_SU_0.npy Probe Label: 18 Matched Label: 99 max similarity: [[0.4213904]] ref similarity: [[0.26349658]]
-bs062_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.44082996]] ref similarity: [[0.09418347]]
-bs062_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.4385166]] ref similarity: [[0.26061344]]
-bs062_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.258879]] ref similarity: [[0.10168748]]
-bs062_YR_R30_0.npy Probe Label: 27 Matched Label: 49 max similarity: [[0.38319153]] ref similarity: [[0.26649502]]
-bs062_YR_R45_0.npy Probe Label: 28 Matched Label: 41 max similarity: [[0.41307753]] ref similarity: [[0.29041195]]
-bs062_YR_R90_0.npy Probe Label: 29 Matched Label: 58 max similarity: [[0.23792352]] ref similarity: [[0.07159194]]
-bs063_CR_RD_0.npy Probe Label: 1 Matched Label: 58 max similarity: [[0.46372324]] ref similarity: [[0.32445416]]
-bs063_CR_RU_0.npy Probe Label: 2 Matched Label: 25 max similarity: [[0.45813772]] ref similarity: [[0.39109153]]
-bs063_O_HAIR_0.npy Probe Label: 14 Matched Label: 43 max similarity: [[0.30205965]] ref similarity: [[0.20148104]]
-bs063_PR_SU_0.npy Probe Label: 18 Matched Label: 2 max similarity: [[0.4613363]] ref similarity: [[0.17432547]]
-bs063_PR_U_0.npy Probe Label: 19 Matched Label: 58 max similarity: [[0.36949646]] ref similarity: [[0.17438631]]
-bs063_YR_L45_0.npy Probe Label: 23 Matched Label: 41 max similarity: [[0.50352746]] ref similarity: [[0.24669462]]
-bs063_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.30316722]] ref similarity: [[0.09995116]]
-bs063_YR_R45_0.npy Probe Label: 28 Matched Label: 41 max similarity: [[0.43702674]] ref similarity: [[0.25353438]]
-bs063_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.2278972]] ref similarity: [[0.09381547]]
-bs064_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.34941667]] ref similarity: [[0.21640693]]
-bs064_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.3980875]] ref similarity: [[0.26806927]]
-bs064_LFAU_34_0.npy Probe Label: 7 Matched Label: 16 max similarity: [[0.50000733]] ref similarity: [[0.17708874]]
-bs064_O_EYE_0.npy Probe Label: 12 Matched Label: 92 max similarity: [[0.42606336]] ref similarity: [[0.27205822]]
-bs064_O_MOUTH_0.npy Probe Label: 14 Matched Label: 10 max similarity: [[0.48360017]] ref similarity: [[0.2614205]]
-bs064_PR_D_0.npy Probe Label: 15 Matched Label: 55 max similarity: [[0.45362347]] ref similarity: [[0.09156539]]
-bs064_YR_L90_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.2844327]] ref similarity: [[0.17955324]]
-bs064_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.27007216]] ref similarity: [[0.16248445]]
-bs065_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.3708102]] ref similarity: [[0.30929077]]
-bs065_YR_L90_0.npy Probe Label: 23 Matched Label: 58 max similarity: [[0.30447897]] ref similarity: [[0.11026476]]
-bs065_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.28129435]] ref similarity: [[0.13684633]]
-bs066_CR_RD_0.npy Probe Label: 1 Matched Label: 39 max similarity: [[0.3781433]] ref similarity: [[0.20163113]]
-bs066_CR_RU_0.npy Probe Label: 2 Matched Label: 27 max similarity: [[0.5362308]] ref similarity: [[0.23456825]]
-bs066_PR_U_0.npy Probe Label: 18 Matched Label: 68 max similarity: [[0.552149]] ref similarity: [[0.23836163]]
-bs066_YR_L45_0.npy Probe Label: 22 Matched Label: 27 max similarity: [[0.65740097]] ref similarity: [[0.32765362]]
-bs066_YR_L90_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.24869049]] ref similarity: [[0.1361784]]
-bs066_YR_R20_0.npy Probe Label: 25 Matched Label: 34 max similarity: [[0.55512315]] ref similarity: [[0.31206542]]
-bs066_YR_R30_0.npy Probe Label: 26 Matched Label: 34 max similarity: [[0.47968748]] ref similarity: [[0.2936132]]
-bs066_YR_R45_0.npy Probe Label: 27 Matched Label: 84 max similarity: [[0.472889]] ref similarity: [[0.3998173]]
-bs066_YR_R90_0.npy Probe Label: 28 Matched Label: 38 max similarity: [[0.22090137]] ref similarity: [[0.1289326]]
-bs067_CR_RD_0.npy Probe Label: 1 Matched Label: 79 max similarity: [[0.5417378]] ref similarity: [[0.32170677]]
-bs067_O_MOUTH_0.npy Probe Label: 14 Matched Label: 2 max similarity: [[0.3611144]] ref similarity: [[0.18590179]]
-bs067_PR_D_0.npy Probe Label: 15 Matched Label: 39 max similarity: [[0.48640043]] ref similarity: [[0.20360148]]
-bs067_YR_L45_0.npy Probe Label: 22 Matched Label: 27 max similarity: [[0.51163197]] ref similarity: [[0.2193104]]
-bs067_YR_L90_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.27298275]] ref similarity: [[0.19285783]]
-bs067_YR_R45_0.npy Probe Label: 27 Matched Label: 23 max similarity: [[0.544704]] ref similarity: [[0.5216141]]
-bs067_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.26208538]] ref similarity: [[0.18699741]]
-bs068_CR_RU_0.npy Probe Label: 2 Matched Label: 27 max similarity: [[0.4854053]] ref similarity: [[0.28371543]]
-bs068_YR_L45_0.npy Probe Label: 22 Matched Label: 27 max similarity: [[0.58868074]] ref similarity: [[0.21290034]]
-bs068_YR_L90_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.27282274]] ref similarity: [[0.1192839]]
-bs068_YR_R30_0.npy Probe Label: 26 Matched Label: 27 max similarity: [[0.5846435]] ref similarity: [[0.3103978]]
-bs068_YR_R45_0.npy Probe Label: 27 Matched Label: 27 max similarity: [[0.44974098]] ref similarity: [[0.44974098]]
-bs068_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.29032898]] ref similarity: [[0.20891348]]
-bs069_CR_RD_0.npy Probe Label: 1 Matched Label: 12 max similarity: [[0.46440956]] ref similarity: [[0.15841328]]
-bs069_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.46532938]] ref similarity: [[0.32030264]]
-bs069_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.4336608]] ref similarity: [[0.18704435]]
-bs069_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.27943012]] ref similarity: [[0.10915701]]
-bs069_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.3140713]] ref similarity: [[0.11781743]]
-bs070_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.57129014]] ref similarity: [[0.3728487]]
-bs070_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.45162338]] ref similarity: [[0.21520764]]
-bs070_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.4325825]] ref similarity: [[0.333922]]
-bs070_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.303154]] ref similarity: [[0.16325879]]
-bs070_YR_R45_0.npy Probe Label: 28 Matched Label: 27 max similarity: [[0.5504261]] ref similarity: [[0.34320098]]
-bs070_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.27316985]] ref similarity: [[0.08799454]]
-bs071_CR_RD_0.npy Probe Label: 1 Matched Label: 41 max similarity: [[0.39151567]] ref similarity: [[0.31826973]]
-bs071_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.4813971]] ref similarity: [[0.39340705]]
-bs071_O_HAIR_0.npy Probe Label: 14 Matched Label: 2 max similarity: [[0.30657762]] ref similarity: [[0.26490057]]
-bs071_PR_D_0.npy Probe Label: 16 Matched Label: 61 max similarity: [[0.33370593]] ref similarity: [[0.17746708]]
-bs071_PR_U_0.npy Probe Label: 19 Matched Label: 96 max similarity: [[0.3713457]] ref similarity: [[0.13253254]]
-bs071_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.5580493]] ref similarity: [[0.316953]]
-bs071_YR_L90_0.npy Probe Label: 24 Matched Label: 58 max similarity: [[0.2530983]] ref similarity: [[0.08296973]]
-bs071_YR_R20_0.npy Probe Label: 26 Matched Label: 60 max similarity: [[0.4887585]] ref similarity: [[0.20814925]]
-bs071_YR_R30_0.npy Probe Label: 27 Matched Label: 41 max similarity: [[0.44929054]] ref similarity: [[0.28536054]]
-bs071_YR_R45_0.npy Probe Label: 28 Matched Label: 14 max similarity: [[0.3923553]] ref similarity: [[0.27203178]]
-bs071_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.28998327]] ref similarity: [[0.08216866]]
-bs072_CR_RD_0.npy Probe Label: 1 Matched Label: 33 max similarity: [[0.44733992]] ref similarity: [[0.19603322]]
-bs072_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.72164845]] ref similarity: [[0.35821974]]
-bs072_PR_U_0.npy Probe Label: 19 Matched Label: 4 max similarity: [[0.5512437]] ref similarity: [[0.21499056]]
-bs072_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.6139607]] ref similarity: [[0.38553035]]
-bs072_YR_L90_0.npy Probe Label: 24 Matched Label: 44 max similarity: [[0.29871595]] ref similarity: [[0.12495045]]
-bs072_YR_R45_0.npy Probe Label: 28 Matched Label: 27 max similarity: [[0.5620061]] ref similarity: [[0.24816692]]
-bs072_YR_R90_0.npy Probe Label: 29 Matched Label: 25 max similarity: [[0.2835999]] ref similarity: [[0.17136085]]
-bs073_CR_RU_0.npy Probe Label: 2 Matched Label: 72 max similarity: [[0.6322212]] ref similarity: [[0.2994132]]
-bs073_O_EYE_0.npy Probe Label: 12 Matched Label: 9 max similarity: [[0.5607559]] ref similarity: [[0.36339843]]
-bs073_O_MOUTH_0.npy Probe Label: 15 Matched Label: 55 max similarity: [[0.4751324]] ref similarity: [[0.11958183]]
-bs073_PR_U_0.npy Probe Label: 19 Matched Label: 65 max similarity: [[0.38571176]] ref similarity: [[0.23390087]]
-bs073_YR_L45_0.npy Probe Label: 23 Matched Label: 4 max similarity: [[0.62317973]] ref similarity: [[0.4531777]]
-bs073_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.27623552]] ref similarity: [[0.0852042]]
-bs073_YR_R20_0.npy Probe Label: 26 Matched Label: 72 max similarity: [[0.6471987]] ref similarity: [[0.35860592]]
-bs073_YR_R30_0.npy Probe Label: 27 Matched Label: 72 max similarity: [[0.6567437]] ref similarity: [[0.38982677]]
-bs073_YR_R45_0.npy Probe Label: 28 Matched Label: 72 max similarity: [[0.57096773]] ref similarity: [[0.31379676]]
-bs073_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.3014521]] ref similarity: [[0.14177638]]
-bs074_CR_RD_0.npy Probe Label: 1 Matched Label: 87 max similarity: [[0.28308302]] ref similarity: [[0.13322839]]
-bs074_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.4351969]] ref similarity: [[0.30881146]]
-bs074_LFAU_9_0.npy Probe Label: 8 Matched Label: 5 max similarity: [[0.44626564]] ref similarity: [[0.44125274]]
-bs074_YR_L90_0.npy Probe Label: 24 Matched Label: 2 max similarity: [[0.30079007]] ref similarity: [[0.11658897]]
-bs074_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.25902987]] ref similarity: [[0.08116398]]
-bs075_CR_RD_0.npy Probe Label: 1 Matched Label: 65 max similarity: [[0.36538434]] ref similarity: [[0.23261815]]
-bs075_CR_RU_0.npy Probe Label: 2 Matched Label: 22 max similarity: [[0.43738663]] ref similarity: [[0.36571208]]
-bs075_YR_L45_0.npy Probe Label: 23 Matched Label: 27 max similarity: [[0.4709568]] ref similarity: [[0.35976774]]
-bs075_YR_L90_0.npy Probe Label: 24 Matched Label: 58 max similarity: [[0.26393715]] ref similarity: [[0.08584896]]
-bs075_YR_R30_0.npy Probe Label: 27 Matched Label: 22 max similarity: [[0.5764889]] ref similarity: [[0.3284748]]
-bs075_YR_R45_0.npy Probe Label: 28 Matched Label: 22 max similarity: [[0.43262595]] ref similarity: [[0.17979033]]
-bs075_YR_R90_0.npy Probe Label: 29 Matched Label: 58 max similarity: [[0.2882014]] ref similarity: [[0.08099952]]
-bs076_CR_RU_0.npy Probe Label: 2 Matched Label: 23 max similarity: [[0.64863074]] ref similarity: [[0.27546126]]
-bs076_YR_L45_0.npy Probe Label: 21 Matched Label: 4 max similarity: [[0.39768812]] ref similarity: [[0.18934916]]
-bs076_YR_L90_0.npy Probe Label: 22 Matched Label: 2 max similarity: [[0.24854201]] ref similarity: [[0.18739794]]
-bs076_YR_R45_0.npy Probe Label: 26 Matched Label: 23 max similarity: [[0.56877667]] ref similarity: [[0.25162905]]
-bs076_YR_R90_0.npy Probe Label: 27 Matched Label: 2 max similarity: [[0.23225576]] ref similarity: [[0.10429751]]
-bs077_CR_RU_0.npy Probe Label: 2 Matched Label: 32 max similarity: [[0.40009215]] ref similarity: [[0.29348058]]
-bs077_LFAU_9_0.npy Probe Label: 8 Matched Label: 91 max similarity: [[0.5561055]] ref similarity: [[0.24127293]]
-bs077_O_EYE_0.npy Probe Label: 12 Matched Label: 2 max similarity: [[0.4603712]] ref similarity: [[0.17236255]]
-bs077_O_GLASSES_0.npy Probe Label: 13 Matched Label: 51 max similarity: [[0.52067906]] ref similarity: [[0.20605135]]
-bs077_PR_U_0.npy Probe Label: 19 Matched Label: 99 max similarity: [[0.36778966]] ref similarity: [[0.12176368]]
-bs077_YR_L45_0.npy Probe Label: 23 Matched Label: 6 max similarity: [[0.38022923]] ref similarity: [[0.28772622]]
-bs077_YR_L90_0.npy Probe Label: 24 Matched Label: 97 max similarity: [[0.26178342]] ref similarity: [[0.1349635]]
-bs077_YR_R90_0.npy Probe Label: 29 Matched Label: 2 max similarity: [[0.2980732]] ref similarity: [[0.08701435]]
-bs078_CR_RU_0.npy Probe Label: 2 Matched Label: 6 max similarity: [[0.5242039]] ref similarity: [[0.20328201]]
-bs078_LFAU_27_0.npy Probe Label: 5 Matched Label: 52 max similarity: [[0.54300797]] ref similarity: [[0.22005495]]
-bs078_PR_D_0.npy Probe Label: 15 Matched Label: 24 max similarity: [[0.44746816]] ref similarity: [[0.15754]]
-bs078_PR_U_0.npy Probe Label: 18 Matched Label: 64 max similarity: [[0.3628952]] ref similarity: [[0.22993766]]
-bs078_UFAU_43_0.npy Probe Label: 20 Matched Label: 52 max similarity: [[0.51230055]] ref similarity: [[0.26617366]]
-bs078_YR_L45_0.npy Probe Label: 22 Matched Label: 47 max similarity: [[0.5491277]] ref similarity: [[0.15909514]]
-bs078_YR_L90_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.25966656]] ref similarity: [[0.14281736]]
-bs078_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.29428923]] ref similarity: [[0.10475906]]
-bs079_CR_RD_0.npy Probe Label: 1 Matched Label: 65 max similarity: [[0.4104879]] ref similarity: [[0.3254515]]
-bs079_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.677602]] ref similarity: [[0.52862906]]
-bs079_YR_L90_0.npy Probe Label: 23 Matched Label: 2 max similarity: [[0.31397903]] ref similarity: [[0.11586897]]
-bs079_YR_R90_0.npy Probe Label: 28 Matched Label: 2 max similarity: [[0.29570428]] ref similarity: [[0.14987789]]
-bs080_CR_RU_0.npy Probe Label: 2 Matched Label: 4 max similarity: [[0.55320096]] ref similarity: [[0.36506256]]
-bs080_PR_SU_0.npy Probe Label: 18 Matched Label: 81 max similarity: [[0.41312188]] ref similarity: [[0.1970487]]
-bs080_YR_L45_0.npy Probe Label: 23 Matched Label: 99 max similarity: [[0.44974357]] ref similarity: [[0.29744455]]
-bs080_YR_L90_0.npy Probe Label: 24 Matched Label: 36 max similarity: [[0.28251976]] ref similarity: [[0.10273847]]
-bs080_YR_R90_0.npy Probe Label: 29 Matched Label: 38 max similarity: [[0.26000896]] ref similarity: [[0.09901494]]
-bs081_O_MOUTH_0.npy Probe Label: 35 Matched Label: 79 max similarity: [[0.4508368]] ref similarity: [[0.22464429]]
-bs081_PR_U_0.npy Probe Label: 39 Matched Label: 99 max similarity: [[0.4603218]] ref similarity: [[0.27818176]]
-bs081_YR_L45_0.npy Probe Label: 44 Matched Label: 99 max similarity: [[0.4275949]] ref similarity: [[0.27577865]]
-bs081_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.26352513]] ref similarity: [[0.06551082]]
-bs081_YR_R45_0.npy Probe Label: 49 Matched Label: 41 max similarity: [[0.4659553]] ref similarity: [[0.3229215]]
-bs081_YR_R90_0.npy Probe Label: 50 Matched Label: 58 max similarity: [[0.24837603]] ref similarity: [[0.1672555]]
-bs082_CR_RD_0.npy Probe Label: 2 Matched Label: 33 max similarity: [[0.4146849]] ref similarity: [[0.18014963]]
-bs082_CR_RU_0.npy Probe Label: 3 Matched Label: 72 max similarity: [[0.49795467]] ref similarity: [[0.30553624]]
-bs082_YR_L45_0.npy Probe Label: 44 Matched Label: 6 max similarity: [[0.553895]] ref similarity: [[0.39857912]]
-bs082_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.27883118]] ref similarity: [[0.05243487]]
-bs082_YR_R20_0.npy Probe Label: 47 Matched Label: 6 max similarity: [[0.50733525]] ref similarity: [[0.30914342]]
-bs082_YR_R30_0.npy Probe Label: 48 Matched Label: 6 max similarity: [[0.54453135]] ref similarity: [[0.1304962]]
-bs082_YR_R45_0.npy Probe Label: 49 Matched Label: 20 max similarity: [[0.55449426]] ref similarity: [[0.28397304]]
-bs082_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.27238172]] ref similarity: [[0.15979744]]
-bs083_YR_L45_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.5071646]] ref similarity: [[0.17974052]]
-bs083_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.32549873]] ref similarity: [[0.14282209]]
-bs083_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.26598015]] ref similarity: [[0.18112427]]
-bs084_CR_RD_0.npy Probe Label: 2 Matched Label: 39 max similarity: [[0.5341512]] ref similarity: [[0.16518939]]
-bs084_CR_RU_0.npy Probe Label: 3 Matched Label: 72 max similarity: [[0.61058944]] ref similarity: [[0.38560185]]
-bs084_PR_U_0.npy Probe Label: 40 Matched Label: 23 max similarity: [[0.4936419]] ref similarity: [[0.05392432]]
-bs084_YR_L45_0.npy Probe Label: 45 Matched Label: 27 max similarity: [[0.62490875]] ref similarity: [[0.15950365]]
-bs084_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.27955037]] ref similarity: [[0.1316025]]
-bs084_YR_R45_0.npy Probe Label: 50 Matched Label: 27 max similarity: [[0.500322]] ref similarity: [[0.05416986]]
-bs084_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.29149595]] ref similarity: [[0.05771255]]
-bs085_PR_U_0.npy Probe Label: 39 Matched Label: 4 max similarity: [[0.4538148]] ref similarity: [[0.18630552]]
-bs085_YR_L45_0.npy Probe Label: 44 Matched Label: 4 max similarity: [[0.46154737]] ref similarity: [[0.17822063]]
-bs085_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.3054676]] ref similarity: [[0.06603633]]
-bs085_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.27859634]] ref similarity: [[0.17138287]]
-bs086_PR_U_0.npy Probe Label: 40 Matched Label: 99 max similarity: [[0.4241124]] ref similarity: [[0.10294706]]
-bs086_YR_L45_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.5037201]] ref similarity: [[0.22259618]]
-bs086_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.3199666]] ref similarity: [[0.14352688]]
-bs086_YR_R45_0.npy Probe Label: 51 Matched Label: 4 max similarity: [[0.46920905]] ref similarity: [[0.15106279]]
-bs086_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.32431433]] ref similarity: [[0.13186288]]
-bs087_PR_U_0.npy Probe Label: 39 Matched Label: 99 max similarity: [[0.50956285]] ref similarity: [[0.22651502]]
-bs087_YR_L45_0.npy Probe Label: 45 Matched Label: 44 max similarity: [[0.4773593]] ref similarity: [[0.07035165]]
-bs087_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.315419]] ref similarity: [[0.10784972]]
-bs087_YR_R45_0.npy Probe Label: 50 Matched Label: 44 max similarity: [[0.5113653]] ref similarity: [[0.17567219]]
-bs087_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.29677203]] ref similarity: [[0.06122396]]
-bs088_CR_RD_0.npy Probe Label: 2 Matched Label: 65 max similarity: [[0.32510647]] ref similarity: [[0.14588428]]
-bs088_E_DISGUST_0.npy Probe Label: 5 Matched Label: 40 max similarity: [[0.39547658]] ref similarity: [[0.21814613]]
-bs088_O_HAIR_0.npy Probe Label: 34 Matched Label: 17 max similarity: [[0.44997072]] ref similarity: [[0.29312602]]
-bs088_YR_L45_0.npy Probe Label: 44 Matched Label: 99 max similarity: [[0.4437585]] ref similarity: [[0.35465896]]
-bs088_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.3390633]] ref similarity: [[0.06885105]]
-bs088_YR_R45_0.npy Probe Label: 49 Matched Label: 41 max similarity: [[0.32643837]] ref similarity: [[0.23895815]]
-bs088_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.28150636]] ref similarity: [[0.14875218]]
-bs089_PR_U_0.npy Probe Label: 40 Matched Label: 28 max similarity: [[0.47810435]] ref similarity: [[0.15360512]]
-bs089_YR_L45_0.npy Probe Label: 45 Matched Label: 4 max similarity: [[0.5534235]] ref similarity: [[0.16734016]]
-bs089_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.29652336]] ref similarity: [[0.13900176]]
-bs089_YR_R45_0.npy Probe Label: 50 Matched Label: 47 max similarity: [[0.36057568]] ref similarity: [[0.10512443]]
-bs089_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.26452947]] ref similarity: [[0.05199119]]
-bs090_YR_L45_0.npy Probe Label: 46 Matched Label: 41 max similarity: [[0.45677733]] ref similarity: [[0.2706079]]
-bs090_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.2679216]] ref similarity: [[0.12037326]]
-bs090_YR_R90_0.npy Probe Label: 52 Matched Label: 58 max similarity: [[0.2313985]] ref similarity: [[0.14017728]]
-bs091_CR_RD_0.npy Probe Label: 2 Matched Label: 39 max similarity: [[0.49419573]] ref similarity: [[0.25296515]]
-bs091_CR_RU_0.npy Probe Label: 3 Matched Label: 72 max similarity: [[0.46688062]] ref similarity: [[0.19661504]]
-bs091_O_GLASSES_0.npy Probe Label: 34 Matched Label: 9 max similarity: [[0.54135954]] ref similarity: [[0.36426926]]
-bs091_PR_U_0.npy Probe Label: 39 Matched Label: 23 max similarity: [[0.5180258]] ref similarity: [[0.30967382]]
-bs091_YR_L45_0.npy Probe Label: 45 Matched Label: 4 max similarity: [[0.4393931]] ref similarity: [[0.16695009]]
-bs091_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.31789786]] ref similarity: [[0.11663001]]
-bs091_YR_R30_0.npy Probe Label: 49 Matched Label: 39 max similarity: [[0.49191937]] ref similarity: [[0.15382656]]
-bs091_YR_R45_0.npy Probe Label: 50 Matched Label: 47 max similarity: [[0.48091787]] ref similarity: [[0.27463654]]
-bs091_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.22852153]] ref similarity: [[0.04914322]]
-bs092_CR_RU_0.npy Probe Label: 3 Matched Label: 81 max similarity: [[0.5589534]] ref similarity: [[0.13930461]]
-bs092_LFAU_17_0.npy Probe Label: 17 Matched Label: 82 max similarity: [[0.5072438]] ref similarity: [[0.12542725]]
-bs092_YR_L45_0.npy Probe Label: 43 Matched Label: 4 max similarity: [[0.3764588]] ref similarity: [[0.17951089]]
-bs092_YR_L90_0.npy Probe Label: 44 Matched Label: 4 max similarity: [[0.25785127]] ref similarity: [[0.21261044]]
-bs092_YR_R10_0.npy Probe Label: 45 Matched Label: 81 max similarity: [[0.5433395]] ref similarity: [[0.14379019]]
-bs092_YR_R20_0.npy Probe Label: 46 Matched Label: 81 max similarity: [[0.5781363]] ref similarity: [[0.24918222]]
-bs092_YR_R90_0.npy Probe Label: 49 Matched Label: 58 max similarity: [[0.27278638]] ref similarity: [[0.14498854]]
-bs093_CR_RD_0.npy Probe Label: 2 Matched Label: 9 max similarity: [[0.5048629]] ref similarity: [[0.39481044]]
-bs093_E_ANGER_0.npy Probe Label: 4 Matched Label: 6 max similarity: [[0.6506654]] ref similarity: [[0.29092884]]
-bs093_E_DISGUST_0.npy Probe Label: 5 Matched Label: 21 max similarity: [[0.525483]] ref similarity: [[0.35608423]]
-bs093_PR_D_0.npy Probe Label: 37 Matched Label: 9 max similarity: [[0.56608444]] ref similarity: [[0.25369784]]
-bs093_PR_SD_0.npy Probe Label: 38 Matched Label: 9 max similarity: [[0.50469345]] ref similarity: [[0.19548708]]
-bs093_YR_L45_0.npy Probe Label: 46 Matched Label: 72 max similarity: [[0.515878]] ref similarity: [[0.17190672]]
-bs093_YR_L90_0.npy Probe Label: 47 Matched Label: 41 max similarity: [[0.27394813]] ref similarity: [[0.16633476]]
-bs093_YR_R45_0.npy Probe Label: 51 Matched Label: 20 max similarity: [[0.50694156]] ref similarity: [[0.20356768]]
-bs093_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.255143]] ref similarity: [[0.15622427]]
-bs094_PR_U_0.npy Probe Label: 39 Matched Label: 23 max similarity: [[0.48521137]] ref similarity: [[0.37714368]]
-bs094_YR_L45_0.npy Probe Label: 45 Matched Label: 72 max similarity: [[0.48164025]] ref similarity: [[0.16632774]]
-bs094_YR_L90_0.npy Probe Label: 46 Matched Label: 41 max similarity: [[0.25821126]] ref similarity: [[0.12758961]]
-bs094_YR_R45_0.npy Probe Label: 50 Matched Label: 47 max similarity: [[0.481263]] ref similarity: [[0.21238662]]
-bs094_YR_R90_0.npy Probe Label: 51 Matched Label: 89 max similarity: [[0.24023743]] ref similarity: [[0.06975658]]
-bs095_YR_L90_0.npy Probe Label: 46 Matched Label: 58 max similarity: [[0.24096788]] ref similarity: [[0.11814985]]
-bs095_YR_R90_0.npy Probe Label: 51 Matched Label: 58 max similarity: [[0.25912547]] ref similarity: [[0.04941661]]
-bs096_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.28690827]] ref similarity: [[0.10540365]]
-bs096_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.32021806]] ref similarity: [[0.1230066]]
-bs097_LFAU_20_0.npy Probe Label: 20 Matched Label: 2 max similarity: [[0.5931028]] ref similarity: [[0.1827246]]
-bs097_LFAU_27_0.npy Probe Label: 26 Matched Label: 68 max similarity: [[0.5228872]] ref similarity: [[0.16655745]]
-bs097_YR_L45_0.npy Probe Label: 45 Matched Label: 4 max similarity: [[0.5393187]] ref similarity: [[0.14182454]]
-bs097_YR_L90_0.npy Probe Label: 46 Matched Label: 2 max similarity: [[0.30850643]] ref similarity: [[0.11918396]]
-bs097_YR_R45_0.npy Probe Label: 50 Matched Label: 30 max similarity: [[0.46318802]] ref similarity: [[0.26446685]]
-bs097_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.26551807]] ref similarity: [[0.07899346]]
-bs098_CR_RU_0.npy Probe Label: 3 Matched Label: 23 max similarity: [[0.36206388]] ref similarity: [[0.19112918]]
-bs098_YR_L45_0.npy Probe Label: 43 Matched Label: 27 max similarity: [[0.55415785]] ref similarity: [[0.24364005]]
-bs098_YR_L90_0.npy Probe Label: 44 Matched Label: 4 max similarity: [[0.29188013]] ref similarity: [[0.21637458]]
-bs098_YR_R45_0.npy Probe Label: 48 Matched Label: 84 max similarity: [[0.52190524]] ref similarity: [[0.11059393]]
-bs098_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.26715338]] ref similarity: [[0.14085421]]
-bs099_CR_RD_0.npy Probe Label: 2 Matched Label: 65 max similarity: [[0.4250352]] ref similarity: [[0.13177055]]
-bs099_PR_D_0.npy Probe Label: 37 Matched Label: 39 max similarity: [[0.6314243]] ref similarity: [[0.19649094]]
-bs099_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.3126036]] ref similarity: [[0.15223834]]
-bs099_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.30666113]] ref similarity: [[0.1492759]]
-bs100_YR_L45_0.npy Probe Label: 43 Matched Label: 27 max similarity: [[0.4822935]] ref similarity: [[0.18453363]]
-bs100_YR_L90_0.npy Probe Label: 44 Matched Label: 2 max similarity: [[0.3005454]] ref similarity: [[0.2624171]]
-bs100_YR_R90_0.npy Probe Label: 49 Matched Label: 2 max similarity: [[0.23497328]] ref similarity: [[0.17270261]]
-bs101_O_HAIR_0.npy Probe Label: 34 Matched Label: 4 max similarity: [[0.4478183]] ref similarity: [[0.2653366]]
-bs101_YR_L45_0.npy Probe Label: 44 Matched Label: 99 max similarity: [[0.45390242]] ref similarity: [[0.26607978]]
-bs101_YR_L90_0.npy Probe Label: 45 Matched Label: 2 max similarity: [[0.25329918]] ref similarity: [[0.05947249]]
-bs101_YR_R90_0.npy Probe Label: 50 Matched Label: 2 max similarity: [[0.22199568]] ref similarity: [[0.1409592]]
-bs102_O_HAIR_0.npy Probe Label: 35 Matched Label: 9 max similarity: [[0.37414557]] ref similarity: [[0.13338983]]
-bs102_PR_U_0.npy Probe Label: 40 Matched Label: 16 max similarity: [[0.5231979]] ref similarity: [[0.12601882]]
-bs102_YR_L45_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.46469396]] ref similarity: [[0.29402542]]
-bs102_YR_L90_0.npy Probe Label: 47 Matched Label: 2 max similarity: [[0.24617755]] ref similarity: [[0.06258564]]
-bs102_YR_R45_0.npy Probe Label: 51 Matched Label: 23 max similarity: [[0.3865835]] ref similarity: [[0.10836987]]
-bs102_YR_R90_0.npy Probe Label: 52 Matched Label: 2 max similarity: [[0.26462218]] ref similarity: [[0.13805261]]
-bs103_LFAU_9_0.npy Probe Label: 28 Matched Label: 89 max similarity: [[0.5330459]] ref similarity: [[0.19668242]]
-bs103_YR_L45_0.npy Probe Label: 45 Matched Label: 72 max similarity: [[0.47819218]] ref similarity: [[0.19274457]]
-bs103_YR_L90_0.npy Probe Label: 46 Matched Label: 4 max similarity: [[0.27662566]] ref similarity: [[0.13475487]]
-bs103_YR_R45_0.npy Probe Label: 50 Matched Label: 6 max similarity: [[0.4933344]] ref similarity: [[0.09457858]]
-bs103_YR_R90_0.npy Probe Label: 51 Matched Label: 2 max similarity: [[0.25675067]] ref similarity: [[0.06433842]]
+bs002_CR_RU_0.npy
+bs002_YR_L45_0.npy
+bs002_YR_L90_0.npy
+bs002_YR_R30_0.npy
+bs002_YR_R45_0.npy
+bs003_CR_RD_0.npy
+bs003_CR_RU_0.npy
+bs003_O_HAIR_1.npy
+bs003_PR_D_0.npy
+bs003_PR_U_0.npy
+bs003_YR_L45_0.npy
+bs003_YR_L90_0.npy
+bs003_YR_R45_0.npy
+bs003_YR_R90_0.npy
+bs004_CR_RD_0.npy
+bs004_E_FEAR_0.npy
+bs004_PR_D_0.npy
+bs005_CR_RD_0.npy
+bs005_YR_L90_0.npy
+bs005_YR_R90_0.npy
+bs006_CR_RD_0.npy
+bs006_CR_RU_0.npy
+bs006_PR_U_0.npy
+bs006_UFAU_44_0.npy
+bs006_YR_L45_0.npy
+bs006_YR_L90_0.npy
+bs006_YR_R45_0.npy
+bs006_YR_R90_0.npy
+bs007_CR_RU_0.npy
+bs007_PR_U_0.npy
+bs007_YR_L45_0.npy
+bs007_YR_L90_0.npy
+bs007_YR_R45_0.npy
+bs007_YR_R90_0.npy
+bs008_IGN_INV_1.npy
+bs008_YR_L45_0.npy
+bs008_YR_L90_0.npy
+bs008_YR_R90_0.npy
+bs009_CR_RD_0.npy
+bs009_CR_RU_0.npy
+bs009_PR_U_0.npy
+bs009_YR_L45_0.npy
+bs009_YR_L90_0.npy
+bs009_YR_R30_0.npy
+bs009_YR_R45_0.npy
+bs009_YR_R90_0.npy
+bs010_CR_RD_0.npy
+bs010_CR_RU_0.npy
+bs010_O_GLASSES_0.npy
+bs010_YR_L45_0.npy
+bs010_YR_L90_0.npy
+bs010_YR_R20_0.npy
+bs010_YR_R30_0.npy
+bs010_YR_R45_0.npy
+bs010_YR_R90_0.npy
+bs011_CR_RD_0.npy
+bs011_CR_RU_0.npy
+bs011_PR_D_0.npy
+bs011_PR_U_0.npy
+bs011_YR_L45_0.npy
+bs011_YR_L90_0.npy
+bs011_YR_R30_0.npy
+bs011_YR_R45_0.npy
+bs011_YR_R90_0.npy
+bs012_O_HAIR_0.npy
+bs012_PR_U_0.npy
+bs012_YR_L45_0.npy
+bs012_YR_L90_0.npy
+bs012_YR_R30_0.npy
+bs012_YR_R45_0.npy
+bs012_YR_R90_0.npy
+bs013_CR_RD_0.npy
+bs013_LFAU_12_0.npy
+bs013_YR_L90_0.npy
+bs013_YR_R45_0.npy
+bs013_YR_R90_0.npy
+bs014_CR_RD_0.npy
+bs014_CR_RU_0.npy
+bs014_E_DISGUST_0.npy
+bs014_E_HAPPY_0.npy
+bs014_LFAU_12_0.npy
+bs014_O_EYE_0.npy
+bs014_UFAU_44_0.npy
+bs014_YR_L45_0.npy
+bs014_YR_L90_0.npy
+bs014_YR_R20_0.npy
+bs014_YR_R45_0.npy
+bs014_YR_R90_0.npy
+bs015_CR_RD_0.npy
+bs015_CR_RU_0.npy
+bs015_LFAU_10_0.npy
+bs015_O_HAIR_0.npy
+bs015_PR_SU_0.npy
+bs015_PR_U_0.npy
+bs015_UFAU_1_0.npy
+bs015_YR_L45_0.npy
+bs015_YR_L90_0.npy
+bs015_YR_R30_0.npy
+bs015_YR_R45_0.npy
+bs015_YR_R90_0.npy
+bs016_CR_RD_0.npy
+bs016_CR_RU_0.npy
+bs016_O_EYE_0.npy
+bs016_PR_D_0.npy
+bs016_YR_L45_0.npy
+bs016_YR_L90_0.npy
+bs016_YR_R45_0.npy
+bs016_YR_R90_0.npy
+bs017_O_HAIR_0.npy
+bs017_PR_U_0.npy
+bs017_YR_L45_0.npy
+bs017_YR_L90_0.npy
+bs017_YR_R45_0.npy
+bs017_YR_R90_0.npy
+bs018_CR_RD_0.npy
+bs018_CR_RU_0.npy
+bs018_E_FEAR_0.npy
+bs018_O_HAIR_0.npy
+bs018_PR_D_0.npy
+bs018_PR_U_0.npy
+bs018_YR_L45_0.npy
+bs018_YR_L90_0.npy
+bs018_YR_R90_0.npy
+bs019_CR_RD_0.npy
+bs019_CR_RU_0.npy
+bs019_YR_L45_0.npy
+bs019_YR_L90_0.npy
+bs019_YR_R90_0.npy
+bs020_CR_RU_1.npy
+bs020_PR_SU_0.npy
+bs020_PR_U_0.npy
+bs020_YR_L45_0.npy
+bs020_YR_L90_0.npy
+bs020_YR_R90_0.npy
+bs021_CAU_A22A25_0.npy
+bs021_CR_RU_0.npy
+bs021_LFAU_10_0.npy
+bs021_LFAU_17_0.npy
+bs021_LFAU_22_0.npy
+bs021_LFAU_25_0.npy
+bs021_LFAU_27_0.npy
+bs021_LFAU_9_0.npy
+bs021_UFAU_44_0.npy
+bs021_YR_L45_0.npy
+bs021_YR_L90_0.npy
+bs021_YR_R90_0.npy
+bs022_O_EYE_0.npy
+bs022_O_MOUTH_0.npy
+bs022_PR_D_0.npy
+bs022_YR_L90_0.npy
+bs022_YR_R90_0.npy
+bs023_CR_RD_0.npy
+bs023_O_MOUTH_0.npy
+bs023_PR_D_0.npy
+bs023_PR_SD_0.npy
+bs023_YR_L90_0.npy
+bs023_YR_R90_0.npy
+bs024_CR_RD_0.npy
+bs024_CR_RU_0.npy
+bs024_O_HAIR_0.npy
+bs024_PR_U_0.npy
+bs024_YR_L45_0.npy
+bs024_YR_L90_0.npy
+bs024_YR_R45_0.npy
+bs024_YR_R90_0.npy
+bs025_CR_RD_0.npy
+bs025_CR_RU_0.npy
+bs025_YR_L45_0.npy
+bs025_YR_L90_0.npy
+bs025_YR_R45_0.npy
+bs025_YR_R90_0.npy
+bs026_CR_RU_0.npy
+bs026_O_HAIR_0.npy
+bs026_PR_U_0.npy
+bs026_YR_L45_0.npy
+bs026_YR_L90_0.npy
+bs026_YR_R90_0.npy
+bs027_O_EYE_0.npy
+bs027_O_MOUTH_0.npy
+bs027_YR_L90_0.npy
+bs027_YR_R90_0.npy
+bs028_CR_RD_0.npy
+bs028_CR_RU_0.npy
+bs028_LFAU_34_0.npy
+bs028_O_GLASSES_0.npy
+bs028_PR_U_0.npy
+bs028_UFAU_44_0.npy
+bs028_YR_L45_0.npy
+bs028_YR_L90_0.npy
+bs028_YR_R45_0.npy
+bs028_YR_R90_0.npy
+bs029_CR_RD_0.npy
+bs029_CR_RU_0.npy
+bs029_O_HAIR_0.npy
+bs029_PR_U_0.npy
+bs029_YR_L45_0.npy
+bs029_YR_L90_0.npy
+bs029_YR_R45_0.npy
+bs029_YR_R90_0.npy
+bs030_CR_RD_0.npy
+bs030_CR_RU_0.npy
+bs030_LFAU_10_0.npy
+bs030_YR_L45_0.npy
+bs030_YR_L90_0.npy
+bs030_YR_R90_0.npy
+bs031_YR_L90_0.npy
+bs031_YR_R45_0.npy
+bs031_YR_R90_0.npy
+bs032_CR_RD_0.npy
+bs032_CR_RU_0.npy
+bs032_PR_D_0.npy
+bs032_PR_U_0.npy
+bs032_YR_L90_0.npy
+bs032_YR_R90_0.npy
+bs033_CR_RD_0.npy
+bs033_CR_RU_0.npy
+bs033_PR_U_0.npy
+bs033_YR_L45_0.npy
+bs033_YR_L90_0.npy
+bs033_YR_R90_0.npy
+bs034_CR_RU_0.npy
+bs034_PR_SD_0.npy
+bs034_PR_U_0.npy
+bs034_YR_L45_0.npy
+bs034_YR_L90_0.npy
+bs034_YR_R90_0.npy
+bs035_CR_RD_0.npy
+bs035_CR_RU_0.npy
+bs035_O_EYE_0.npy
+bs035_PR_D_0.npy
+bs035_PR_U_0.npy
+bs035_YR_L45_0.npy
+bs035_YR_L90_0.npy
+bs035_YR_R30_0.npy
+bs035_YR_R45_0.npy
+bs035_YR_R90_0.npy
+bs036_CR_RD_0.npy
+bs036_CR_RU_0.npy
+bs036_O_MOUTH_0.npy
+bs036_PR_D_0.npy
+bs036_YR_L45_0.npy
+bs036_YR_L90_0.npy
+bs036_YR_R90_0.npy
+bs037_CR_RD_0.npy
+bs037_CR_RU_0.npy
+bs037_PR_U_0.npy
+bs037_YR_L45_0.npy
+bs037_YR_L90_0.npy
+bs037_YR_R90_0.npy
+bs038_CR_RD_0.npy
+bs038_CR_RU_0.npy
+bs038_E_FEAR_0.npy
+bs038_PR_D_0.npy
+bs038_PR_SD_0.npy
+bs038_PR_U_0.npy
+bs038_YR_L45_0.npy
+bs038_YR_L90_0.npy
+bs038_YR_R45_0.npy
+bs039_CR_RD_0.npy
+bs039_CR_RU_0.npy
+bs039_LFAU_9_0.npy
+bs039_PR_D_0.npy
+bs039_PR_U_0.npy
+bs039_YR_L45_0.npy
+bs039_YR_L90_0.npy
+bs039_YR_R90_0.npy
+bs040_CR_RU_0.npy
+bs040_YR_L45_0.npy
+bs040_YR_L90_0.npy
+bs040_YR_R45_0.npy
+bs040_YR_R90_0.npy
+bs041_CR_RD_0.npy
+bs041_CR_RU_0.npy
+bs041_E_ANGER_0.npy
+bs041_E_DISGUST_0.npy
+bs041_E_FEAR_0.npy
+bs041_E_SURPRISE_0.npy
+bs041_LFAU_18_0.npy
+bs041_O_MOUTH_0.npy
+bs041_PR_U_0.npy
+bs041_UFAU_2_0.npy
+bs041_UFAU_44_0.npy
+bs041_UFAU_4_0.npy
+bs041_YR_L90_0.npy
+bs041_YR_R90_0.npy
+bs042_CR_RD_0.npy
+bs042_CR_RU_0.npy
+bs042_PR_U_0.npy
+bs042_YR_L45_0.npy
+bs042_YR_L90_0.npy
+bs042_YR_R30_0.npy
+bs042_YR_R45_0.npy
+bs042_YR_R90_0.npy
+bs043_CR_RD_0.npy
+bs043_CR_RU_0.npy
+bs043_E_FEAR_0.npy
+bs043_E_SURPRISE_0.npy
+bs043_PR_U_0.npy
+bs043_UFAU_43_0.npy
+bs043_UFAU_44_0.npy
+bs043_UFAU_4_0.npy
+bs043_YR_L45_0.npy
+bs043_YR_L90_0.npy
+bs043_YR_R90_0.npy
+bs044_CR_RD_0.npy
+bs044_CR_RU_0.npy
+bs044_PR_D_0.npy
+bs044_PR_U_0.npy
+bs044_YR_L90_0.npy
+bs044_YR_R45_0.npy
+bs044_YR_R90_0.npy
+bs045_CR_RD_0.npy
+bs045_CR_RU_0.npy
+bs045_O_GLASSES_0.npy
+bs045_O_HAIR_0.npy
+bs045_PR_D_0.npy
+bs045_PR_U_0.npy
+bs045_YR_L45_0.npy
+bs045_YR_L90_0.npy
+bs045_YR_R20_0.npy
+bs045_YR_R90_0.npy
+bs046_CR_RD_0.npy
+bs046_CR_RU_0.npy
+bs046_LFAU_28_0.npy
+bs046_O_GLASSES_0.npy
+bs046_O_HAIR_0.npy
+bs046_PR_SU_0.npy
+bs046_PR_U_0.npy
+bs046_YR_L45_0.npy
+bs046_YR_L90_0.npy
+bs046_YR_R90_0.npy
+bs047_CR_RD_0.npy
+bs047_CR_RU_0.npy
+bs047_LFAU_9_0.npy
+bs047_O_MOUTH_0.npy
+bs047_PR_SU_0.npy
+bs047_PR_U_0.npy
+bs047_YR_L45_0.npy
+bs047_YR_L90_0.npy
+bs047_YR_R90_0.npy
+bs048_CR_RD_0.npy
+bs048_CR_RU_0.npy
+bs048_PR_SU_0.npy
+bs048_PR_U_0.npy
+bs048_YR_L45_0.npy
+bs048_YR_L90_0.npy
+bs048_YR_R45_0.npy
+bs048_YR_R90_0.npy
+bs049_CR_RD_0.npy
+bs049_PR_U_0.npy
+bs049_YR_L90_0.npy
+bs049_YR_R90_0.npy
+bs050_PR_U_0.npy
+bs050_YR_L45_0.npy
+bs050_YR_L90_0.npy
+bs050_YR_R90_0.npy
+bs051_CR_RD_0.npy
+bs051_CR_RU_0.npy
+bs051_PR_D_0.npy
+bs051_PR_U_0.npy
+bs051_YR_L45_0.npy
+bs051_YR_L90_0.npy
+bs051_YR_R45_0.npy
+bs051_YR_R90_0.npy
+bs052_CR_RD_0.npy
+bs052_CR_RU_0.npy
+bs052_PR_D_0.npy
+bs052_PR_U_0.npy
+bs052_YR_L45_0.npy
+bs052_YR_L90_0.npy
+bs052_YR_R90_0.npy
+bs053_CR_RD_0.npy
+bs053_CR_RU_0.npy
+bs053_LFAU_9_0.npy
+bs053_O_EYE_0.npy
+bs053_O_GLASSES_0.npy
+bs053_O_HAIR_0.npy
+bs053_O_MOUTH_0.npy
+bs053_PR_D_0.npy
+bs053_PR_SD_0.npy
+bs053_PR_U_0.npy
+bs053_YR_L90_0.npy
+bs053_YR_R90_0.npy
+bs054_CR_RU_0.npy
+bs054_O_MOUTH_0.npy
+bs054_PR_U_0.npy
+bs054_YR_L45_0.npy
+bs054_YR_L90_0.npy
+bs054_YR_R45_0.npy
+bs054_YR_R90_0.npy
+bs055_CR_RD_0.npy
+bs055_CR_RU_0.npy
+bs055_PR_U_0.npy
+bs055_YR_L45_0.npy
+bs055_YR_L90_0.npy
+bs055_YR_R45_0.npy
+bs055_YR_R90_0.npy
+bs056_CR_RU_0.npy
+bs056_PR_SU_0.npy
+bs056_PR_U_0.npy
+bs056_YR_L90_0.npy
+bs056_YR_R90_0.npy
+bs057_CR_RD_0.npy
+bs057_O_HAIR_0.npy
+bs057_PR_U_0.npy
+bs057_YR_L45_0.npy
+bs057_YR_L90_0.npy
+bs057_YR_R45_0.npy
+bs057_YR_R90_0.npy
+bs058_PR_U_0.npy
+bs059_CR_RD_0.npy
+bs059_CR_RU_0.npy
+bs059_O_EYE_0.npy
+bs059_O_HAIR_0.npy
+bs059_PR_D_0.npy
+bs059_PR_U_0.npy
+bs059_YR_L45_0.npy
+bs059_YR_L90_0.npy
+bs059_YR_R30_0.npy
+bs059_YR_R90_0.npy
+bs060_CR_RD_0.npy
+bs060_CR_RU_0.npy
+bs060_O_EYE_0.npy
+bs060_O_HAIR_0.npy
+bs060_PR_D_0.npy
+bs060_PR_U_0.npy
+bs060_YR_L45_0.npy
+bs060_YR_L90_0.npy
+bs060_YR_R90_0.npy
+bs061_CR_RD_0.npy
+bs061_CR_RU_0.npy
+bs061_LFAU_9_0.npy
+bs061_PR_D_0.npy
+bs061_PR_U_0.npy
+bs061_YR_L45_0.npy
+bs061_YR_L90_0.npy
+bs061_YR_R90_0.npy
+bs062_CR_RD_0.npy
+bs062_CR_RU_0.npy
+bs062_O_HAIR_0.npy
+bs062_PR_SU_0.npy
+bs062_PR_U_0.npy
+bs062_YR_L45_0.npy
+bs062_YR_L90_0.npy
+bs062_YR_R30_0.npy
+bs062_YR_R45_0.npy
+bs062_YR_R90_0.npy
+bs063_CR_RD_0.npy
+bs063_CR_RU_0.npy
+bs063_O_HAIR_0.npy
+bs063_PR_SU_0.npy
+bs063_PR_U_0.npy
+bs063_YR_L45_0.npy
+bs063_YR_L90_0.npy
+bs063_YR_R45_0.npy
+bs063_YR_R90_0.npy
+bs064_CR_RD_0.npy
+bs064_CR_RU_0.npy
+bs064_LFAU_34_0.npy
+bs064_O_EYE_0.npy
+bs064_O_MOUTH_0.npy
+bs064_PR_D_0.npy
+bs064_YR_L90_0.npy
+bs064_YR_R90_0.npy
+bs065_CR_RU_0.npy
+bs065_YR_L90_0.npy
+bs065_YR_R90_0.npy
+bs066_CR_RD_0.npy
+bs066_CR_RU_0.npy
+bs066_PR_U_0.npy
+bs066_YR_L45_0.npy
+bs066_YR_L90_0.npy
+bs066_YR_R20_0.npy
+bs066_YR_R30_0.npy
+bs066_YR_R45_0.npy
+bs066_YR_R90_0.npy
+bs067_CR_RD_0.npy
+bs067_O_MOUTH_0.npy
+bs067_PR_D_0.npy
+bs067_YR_L45_0.npy
+bs067_YR_L90_0.npy
+bs067_YR_R45_0.npy
+bs067_YR_R90_0.npy
+bs068_CR_RU_0.npy
+bs068_YR_L45_0.npy
+bs068_YR_L90_0.npy
+bs068_YR_R30_0.npy
+bs068_YR_R45_0.npy
+bs068_YR_R90_0.npy
+bs069_CR_RD_0.npy
+bs069_CR_RU_0.npy
+bs069_PR_U_0.npy
+bs069_YR_L90_0.npy
+bs069_YR_R90_0.npy
+bs070_CR_RU_0.npy
+bs070_PR_U_0.npy
+bs070_YR_L45_0.npy
+bs070_YR_L90_0.npy
+bs070_YR_R45_0.npy
+bs070_YR_R90_0.npy
+bs071_CR_RD_0.npy
+bs071_CR_RU_0.npy
+bs071_O_HAIR_0.npy
+bs071_PR_D_0.npy
+bs071_PR_U_0.npy
+bs071_YR_L45_0.npy
+bs071_YR_L90_0.npy
+bs071_YR_R20_0.npy
+bs071_YR_R30_0.npy
+bs071_YR_R45_0.npy
+bs071_YR_R90_0.npy
+bs072_CR_RD_0.npy
+bs072_CR_RU_0.npy
+bs072_PR_U_0.npy
+bs072_YR_L45_0.npy
+bs072_YR_L90_0.npy
+bs072_YR_R45_0.npy
+bs072_YR_R90_0.npy
+bs073_CR_RU_0.npy
+bs073_O_EYE_0.npy
+bs073_O_MOUTH_0.npy
+bs073_PR_U_0.npy
+bs073_YR_L45_0.npy
+bs073_YR_L90_0.npy
+bs073_YR_R20_0.npy
+bs073_YR_R30_0.npy
+bs073_YR_R45_0.npy
+bs073_YR_R90_0.npy
+bs074_CR_RD_0.npy
+bs074_CR_RU_0.npy
+bs074_LFAU_9_0.npy
+bs074_YR_L90_0.npy
+bs074_YR_R90_0.npy
+bs075_CR_RD_0.npy
+bs075_CR_RU_0.npy
+bs075_YR_L45_0.npy
+bs075_YR_L90_0.npy
+bs075_YR_R30_0.npy
+bs075_YR_R45_0.npy
+bs075_YR_R90_0.npy
+bs076_CR_RU_0.npy
+bs076_YR_L45_0.npy
+bs076_YR_L90_0.npy
+bs076_YR_R45_0.npy
+bs076_YR_R90_0.npy
+bs077_CR_RU_0.npy
+bs077_LFAU_9_0.npy
+bs077_O_EYE_0.npy
+bs077_O_GLASSES_0.npy
+bs077_PR_U_0.npy
+bs077_YR_L45_0.npy
+bs077_YR_L90_0.npy
+bs077_YR_R90_0.npy
+bs078_CR_RU_0.npy
+bs078_LFAU_27_0.npy
+bs078_PR_D_0.npy
+bs078_PR_U_0.npy
+bs078_UFAU_43_0.npy
+bs078_YR_L45_0.npy
+bs078_YR_L90_0.npy
+bs078_YR_R90_0.npy
+bs079_CR_RD_0.npy
+bs079_CR_RU_0.npy
+bs079_YR_L90_0.npy
+bs079_YR_R90_0.npy
+bs080_CR_RU_0.npy
+bs080_PR_SU_0.npy
+bs080_YR_L45_0.npy
+bs080_YR_L90_0.npy
+bs080_YR_R90_0.npy
+bs081_O_MOUTH_0.npy
+bs081_PR_U_0.npy
+bs081_YR_L45_0.npy
+bs081_YR_L90_0.npy
+bs081_YR_R45_0.npy
+bs081_YR_R90_0.npy
+bs082_CR_RD_0.npy
+bs082_CR_RU_0.npy
+bs082_YR_L45_0.npy
+bs082_YR_L90_0.npy
+bs082_YR_R20_0.npy
+bs082_YR_R30_0.npy
+bs082_YR_R45_0.npy
+bs082_YR_R90_0.npy
+bs083_YR_L45_0.npy
+bs083_YR_L90_0.npy
+bs083_YR_R90_0.npy
+bs084_CR_RD_0.npy
+bs084_CR_RU_0.npy
+bs084_PR_U_0.npy
+bs084_YR_L45_0.npy
+bs084_YR_L90_0.npy
+bs084_YR_R45_0.npy
+bs084_YR_R90_0.npy
+bs085_PR_U_0.npy
+bs085_YR_L45_0.npy
+bs085_YR_L90_0.npy
+bs085_YR_R90_0.npy
+bs086_PR_U_0.npy
+bs086_YR_L45_0.npy
+bs086_YR_L90_0.npy
+bs086_YR_R45_0.npy
+bs086_YR_R90_0.npy
+bs087_PR_U_0.npy
+bs087_YR_L45_0.npy
+bs087_YR_L90_0.npy
+bs087_YR_R45_0.npy
+bs087_YR_R90_0.npy
+bs088_CR_RD_0.npy
+bs088_E_DISGUST_0.npy
+bs088_O_HAIR_0.npy
+bs088_YR_L45_0.npy
+bs088_YR_L90_0.npy
+bs088_YR_R45_0.npy
+bs088_YR_R90_0.npy
+bs089_PR_U_0.npy
+bs089_YR_L45_0.npy
+bs089_YR_L90_0.npy
+bs089_YR_R45_0.npy
+bs089_YR_R90_0.npy
+bs090_YR_L45_0.npy
+bs090_YR_L90_0.npy
+bs090_YR_R90_0.npy
+bs091_CR_RD_0.npy
+bs091_CR_RU_0.npy
+bs091_O_GLASSES_0.npy
+bs091_PR_U_0.npy
+bs091_YR_L45_0.npy
+bs091_YR_L90_0.npy
+bs091_YR_R30_0.npy
+bs091_YR_R45_0.npy
+bs091_YR_R90_0.npy
+bs092_CR_RU_0.npy
+bs092_LFAU_17_0.npy
+bs092_YR_L45_0.npy
+bs092_YR_L90_0.npy
+bs092_YR_R10_0.npy
+bs092_YR_R20_0.npy
+bs092_YR_R90_0.npy
+bs093_CR_RD_0.npy
+bs093_E_ANGER_0.npy
+bs093_E_DISGUST_0.npy
+bs093_PR_D_0.npy
+bs093_PR_SD_0.npy
+bs093_YR_L45_0.npy
+bs093_YR_L90_0.npy
+bs093_YR_R45_0.npy
+bs093_YR_R90_0.npy
+bs094_PR_U_0.npy
+bs094_YR_L45_0.npy
+bs094_YR_L90_0.npy
+bs094_YR_R45_0.npy
+bs094_YR_R90_0.npy
+bs095_YR_L90_0.npy
+bs095_YR_R90_0.npy
+bs096_YR_L90_0.npy
+bs096_YR_R90_0.npy
+bs097_LFAU_20_0.npy
+bs097_LFAU_27_0.npy
+bs097_YR_L45_0.npy
+bs097_YR_L90_0.npy
+bs097_YR_R45_0.npy
+bs097_YR_R90_0.npy
+bs098_CR_RU_0.npy
+bs098_YR_L45_0.npy
+bs098_YR_L90_0.npy
+bs098_YR_R45_0.npy
+bs098_YR_R90_0.npy
+bs099_CR_RD_0.npy
+bs099_PR_D_0.npy
+bs099_YR_L90_0.npy
+bs099_YR_R90_0.npy
+bs100_YR_L45_0.npy
+bs100_YR_L90_0.npy
+bs100_YR_R90_0.npy
+bs101_O_HAIR_0.npy
+bs101_YR_L45_0.npy
+bs101_YR_L90_0.npy
+bs101_YR_R90_0.npy
+bs102_O_HAIR_0.npy
+bs102_PR_U_0.npy
+bs102_YR_L45_0.npy
+bs102_YR_L90_0.npy
+bs102_YR_R45_0.npy
+bs102_YR_R90_0.npy
+bs103_LFAU_9_0.npy
+bs103_YR_L45_0.npy
+bs103_YR_L90_0.npy
+bs103_YR_R45_0.npy
+bs103_YR_R90_0.npy
+bs002_CR_RU_0.npy
+bs002_YR_L45_0.npy
+bs002_YR_L90_0.npy
+bs002_YR_R30_0.npy
+bs002_YR_R45_0.npy
+bs003_CR_RD_0.npy
+bs003_CR_RU_0.npy
+bs003_O_HAIR_1.npy
+bs003_PR_D_0.npy
+bs003_PR_U_0.npy
+bs003_YR_L45_0.npy
+bs003_YR_L90_0.npy
+bs003_YR_R45_0.npy
+bs003_YR_R90_0.npy
+bs004_CR_RD_0.npy
+bs004_E_FEAR_0.npy
+bs004_PR_D_0.npy
+bs005_CR_RD_0.npy
+bs005_YR_L90_0.npy
+bs005_YR_R90_0.npy
+bs006_CR_RD_0.npy
+bs006_CR_RU_0.npy
+bs006_PR_U_0.npy
+bs006_UFAU_44_0.npy
+bs006_YR_L45_0.npy
+bs006_YR_L90_0.npy
+bs006_YR_R45_0.npy
+bs006_YR_R90_0.npy
+bs007_CR_RU_0.npy
+bs007_PR_U_0.npy
+bs007_YR_L45_0.npy
+bs007_YR_L90_0.npy
+bs007_YR_R45_0.npy
+bs007_YR_R90_0.npy
+bs008_IGN_INV_1.npy
+bs008_YR_L45_0.npy
+bs008_YR_L90_0.npy
+bs008_YR_R90_0.npy
+bs009_CR_RD_0.npy
+bs009_CR_RU_0.npy
+bs009_PR_U_0.npy
+bs009_YR_L45_0.npy
+bs009_YR_L90_0.npy
+bs009_YR_R30_0.npy
+bs009_YR_R45_0.npy
+bs009_YR_R90_0.npy
+bs010_CR_RD_0.npy
+bs010_CR_RU_0.npy
+bs010_O_GLASSES_0.npy
+bs010_YR_L45_0.npy
+bs010_YR_L90_0.npy
+bs010_YR_R20_0.npy
+bs010_YR_R30_0.npy
+bs010_YR_R45_0.npy
+bs010_YR_R90_0.npy
+bs011_CR_RD_0.npy
+bs011_CR_RU_0.npy
+bs011_PR_D_0.npy
+bs011_PR_U_0.npy
+bs011_YR_L45_0.npy
+bs011_YR_L90_0.npy
+bs011_YR_R30_0.npy
+bs011_YR_R45_0.npy
+bs011_YR_R90_0.npy
+bs012_O_HAIR_0.npy
+bs012_PR_U_0.npy
+bs012_YR_L45_0.npy
+bs012_YR_L90_0.npy
+bs012_YR_R30_0.npy
+bs012_YR_R45_0.npy
+bs012_YR_R90_0.npy
+bs013_CR_RD_0.npy
+bs013_LFAU_12_0.npy
+bs013_YR_L90_0.npy
+bs013_YR_R45_0.npy
+bs013_YR_R90_0.npy
+bs014_CR_RD_0.npy
+bs014_CR_RU_0.npy
+bs014_E_DISGUST_0.npy
+bs014_E_HAPPY_0.npy
+bs014_LFAU_12_0.npy
+bs014_O_EYE_0.npy
+bs014_UFAU_44_0.npy
+bs014_YR_L45_0.npy
+bs014_YR_L90_0.npy
+bs014_YR_R20_0.npy
+bs014_YR_R45_0.npy
+bs014_YR_R90_0.npy
+bs015_CR_RD_0.npy
+bs015_CR_RU_0.npy
+bs015_LFAU_10_0.npy
+bs015_O_HAIR_0.npy
+bs015_PR_SU_0.npy
+bs015_PR_U_0.npy
+bs015_UFAU_1_0.npy
+bs015_YR_L45_0.npy
+bs015_YR_L90_0.npy
+bs015_YR_R30_0.npy
+bs015_YR_R45_0.npy
+bs015_YR_R90_0.npy
+bs016_CR_RD_0.npy
+bs016_CR_RU_0.npy
+bs016_O_EYE_0.npy
+bs016_PR_D_0.npy
+bs016_YR_L45_0.npy
+bs016_YR_L90_0.npy
+bs016_YR_R45_0.npy
+bs016_YR_R90_0.npy
+bs017_O_HAIR_0.npy
+bs017_PR_U_0.npy
+bs017_YR_L45_0.npy
+bs017_YR_L90_0.npy
+bs017_YR_R45_0.npy
+bs017_YR_R90_0.npy
+bs018_CR_RD_0.npy
+bs018_CR_RU_0.npy
+bs018_E_FEAR_0.npy
+bs018_O_HAIR_0.npy
+bs018_PR_D_0.npy
+bs018_PR_U_0.npy
+bs018_YR_L45_0.npy
+bs018_YR_L90_0.npy
+bs018_YR_R90_0.npy
+bs019_CR_RD_0.npy
+bs019_CR_RU_0.npy
+bs019_YR_L45_0.npy
+bs019_YR_L90_0.npy
+bs019_YR_R90_0.npy
+bs020_CR_RU_1.npy
+bs020_PR_SU_0.npy
+bs020_PR_U_0.npy
+bs020_YR_L45_0.npy
+bs020_YR_L90_0.npy
+bs020_YR_R90_0.npy
+bs021_CAU_A22A25_0.npy
+bs021_CR_RU_0.npy
+bs021_LFAU_10_0.npy
+bs021_LFAU_17_0.npy
+bs021_LFAU_22_0.npy
+bs021_LFAU_25_0.npy
+bs021_LFAU_27_0.npy
+bs021_LFAU_9_0.npy
+bs021_UFAU_44_0.npy
+bs021_YR_L45_0.npy
+bs021_YR_L90_0.npy
+bs021_YR_R90_0.npy
+bs022_O_EYE_0.npy
+bs022_O_MOUTH_0.npy
+bs022_PR_D_0.npy
+bs022_YR_L90_0.npy
+bs022_YR_R90_0.npy
+bs023_CR_RD_0.npy
+bs023_O_MOUTH_0.npy
+bs023_PR_D_0.npy
+bs023_PR_SD_0.npy
+bs023_YR_L90_0.npy
+bs023_YR_R90_0.npy
+bs024_CR_RD_0.npy
+bs024_CR_RU_0.npy
+bs024_O_HAIR_0.npy
+bs024_PR_U_0.npy
+bs024_YR_L45_0.npy
+bs024_YR_L90_0.npy
+bs024_YR_R45_0.npy
+bs024_YR_R90_0.npy
+bs025_CR_RD_0.npy
+bs025_CR_RU_0.npy
+bs025_YR_L45_0.npy
+bs025_YR_L90_0.npy
+bs025_YR_R45_0.npy
+bs025_YR_R90_0.npy
+bs026_CR_RU_0.npy
+bs026_O_HAIR_0.npy
+bs026_PR_U_0.npy
+bs026_YR_L45_0.npy
+bs026_YR_L90_0.npy
+bs026_YR_R90_0.npy
+bs027_O_EYE_0.npy
+bs027_O_MOUTH_0.npy
+bs027_YR_L90_0.npy
+bs027_YR_R90_0.npy
+bs028_CR_RD_0.npy
+bs028_CR_RU_0.npy
+bs028_LFAU_34_0.npy
+bs028_O_GLASSES_0.npy
+bs028_PR_U_0.npy
+bs028_UFAU_44_0.npy
+bs028_YR_L45_0.npy
+bs028_YR_L90_0.npy
+bs028_YR_R45_0.npy
+bs028_YR_R90_0.npy
+bs029_CR_RD_0.npy
+bs029_CR_RU_0.npy
+bs029_O_HAIR_0.npy
+bs029_PR_U_0.npy
+bs029_YR_L45_0.npy
+bs029_YR_L90_0.npy
+bs029_YR_R45_0.npy
+bs029_YR_R90_0.npy
+bs030_CR_RD_0.npy
+bs030_CR_RU_0.npy
+bs030_LFAU_10_0.npy
+bs030_YR_L45_0.npy
+bs030_YR_L90_0.npy
+bs030_YR_R90_0.npy
+bs031_YR_L90_0.npy
+bs031_YR_R45_0.npy
+bs031_YR_R90_0.npy
+bs032_CR_RD_0.npy
+bs032_CR_RU_0.npy
+bs032_PR_D_0.npy
+bs032_PR_U_0.npy
+bs032_YR_L90_0.npy
+bs032_YR_R90_0.npy
+bs033_CR_RD_0.npy
+bs033_CR_RU_0.npy
+bs033_PR_U_0.npy
+bs033_YR_L45_0.npy
+bs033_YR_L90_0.npy
+bs033_YR_R90_0.npy
+bs034_CR_RU_0.npy
+bs034_PR_SD_0.npy
+bs034_PR_U_0.npy
+bs034_YR_L45_0.npy
+bs034_YR_L90_0.npy
+bs034_YR_R90_0.npy
+bs035_CR_RD_0.npy
+bs035_CR_RU_0.npy
+bs035_O_EYE_0.npy
+bs035_PR_D_0.npy
+bs035_PR_U_0.npy
+bs035_YR_L45_0.npy
+bs035_YR_L90_0.npy
+bs035_YR_R30_0.npy
+bs035_YR_R45_0.npy
+bs035_YR_R90_0.npy
+bs036_CR_RD_0.npy
+bs036_CR_RU_0.npy
+bs036_O_MOUTH_0.npy
+bs036_PR_D_0.npy
+bs036_YR_L45_0.npy
+bs036_YR_L90_0.npy
+bs036_YR_R90_0.npy
+bs037_CR_RD_0.npy
+bs037_CR_RU_0.npy
+bs037_PR_U_0.npy
+bs037_YR_L45_0.npy
+bs037_YR_L90_0.npy
+bs037_YR_R90_0.npy
+bs038_CR_RD_0.npy
+bs038_CR_RU_0.npy
+bs038_E_FEAR_0.npy
+bs038_PR_D_0.npy
+bs038_PR_SD_0.npy
+bs038_PR_U_0.npy
+bs038_YR_L45_0.npy
+bs038_YR_L90_0.npy
+bs038_YR_R45_0.npy
+bs039_CR_RD_0.npy
+bs039_CR_RU_0.npy
+bs039_LFAU_9_0.npy
+bs039_PR_D_0.npy
+bs039_PR_U_0.npy
+bs039_YR_L45_0.npy
+bs039_YR_L90_0.npy
+bs039_YR_R90_0.npy
+bs040_CR_RU_0.npy
+bs040_YR_L45_0.npy
+bs040_YR_L90_0.npy
+bs040_YR_R45_0.npy
+bs040_YR_R90_0.npy
+bs041_CR_RD_0.npy
+bs041_CR_RU_0.npy
+bs041_E_ANGER_0.npy
+bs041_E_DISGUST_0.npy
+bs041_E_FEAR_0.npy
+bs041_E_SURPRISE_0.npy
+bs041_LFAU_18_0.npy
+bs041_O_MOUTH_0.npy
+bs041_PR_U_0.npy
+bs041_UFAU_2_0.npy
+bs041_UFAU_44_0.npy
+bs041_UFAU_4_0.npy
+bs041_YR_L90_0.npy
+bs041_YR_R90_0.npy
+bs042_CR_RD_0.npy
+bs042_CR_RU_0.npy
+bs042_PR_U_0.npy
+bs042_YR_L45_0.npy
+bs042_YR_L90_0.npy
+bs042_YR_R30_0.npy
+bs042_YR_R45_0.npy
+bs042_YR_R90_0.npy
+bs043_CR_RD_0.npy
+bs043_CR_RU_0.npy
+bs043_E_FEAR_0.npy
+bs043_E_SURPRISE_0.npy
+bs043_PR_U_0.npy
+bs043_UFAU_43_0.npy
+bs043_UFAU_44_0.npy
+bs043_UFAU_4_0.npy
+bs043_YR_L45_0.npy
+bs043_YR_L90_0.npy
+bs043_YR_R90_0.npy
+bs044_CR_RD_0.npy
+bs044_CR_RU_0.npy
+bs044_PR_D_0.npy
+bs044_PR_U_0.npy
+bs044_YR_L90_0.npy
+bs044_YR_R45_0.npy
+bs044_YR_R90_0.npy
+bs045_CR_RD_0.npy
+bs045_CR_RU_0.npy
+bs045_O_GLASSES_0.npy
+bs045_O_HAIR_0.npy
+bs045_PR_D_0.npy
+bs045_PR_U_0.npy
+bs045_YR_L45_0.npy
+bs045_YR_L90_0.npy
+bs045_YR_R20_0.npy
+bs045_YR_R90_0.npy
+bs046_CR_RD_0.npy
+bs046_CR_RU_0.npy
+bs046_LFAU_28_0.npy
+bs046_O_GLASSES_0.npy
+bs046_O_HAIR_0.npy
+bs046_PR_SU_0.npy
+bs046_PR_U_0.npy
+bs046_YR_L45_0.npy
+bs046_YR_L90_0.npy
+bs046_YR_R90_0.npy
+bs047_CR_RD_0.npy
+bs047_CR_RU_0.npy
+bs047_LFAU_9_0.npy
+bs047_O_MOUTH_0.npy
+bs047_PR_SU_0.npy
+bs047_PR_U_0.npy
+bs047_YR_L45_0.npy
+bs047_YR_L90_0.npy
+bs047_YR_R90_0.npy
+bs048_CR_RD_0.npy
+bs048_CR_RU_0.npy
+bs048_PR_SU_0.npy
+bs048_PR_U_0.npy
+bs048_YR_L45_0.npy
+bs048_YR_L90_0.npy
+bs048_YR_R45_0.npy
+bs048_YR_R90_0.npy
+bs049_CR_RD_0.npy
+bs049_PR_U_0.npy
+bs049_YR_L90_0.npy
+bs049_YR_R90_0.npy
+bs050_PR_U_0.npy
+bs050_YR_L45_0.npy
+bs050_YR_L90_0.npy
+bs050_YR_R90_0.npy
+bs051_CR_RD_0.npy
+bs051_CR_RU_0.npy
+bs051_PR_D_0.npy
+bs051_PR_U_0.npy
+bs051_YR_L45_0.npy
+bs051_YR_L90_0.npy
+bs051_YR_R45_0.npy
+bs051_YR_R90_0.npy
+bs052_CR_RD_0.npy
+bs052_CR_RU_0.npy
+bs052_PR_D_0.npy
+bs052_PR_U_0.npy
+bs052_YR_L45_0.npy
+bs052_YR_L90_0.npy
+bs052_YR_R90_0.npy
+bs053_CR_RD_0.npy
+bs053_CR_RU_0.npy
+bs053_LFAU_9_0.npy
+bs053_O_EYE_0.npy
+bs053_O_GLASSES_0.npy
+bs053_O_HAIR_0.npy
+bs053_O_MOUTH_0.npy
+bs053_PR_D_0.npy
+bs053_PR_SD_0.npy
+bs053_PR_U_0.npy
+bs053_YR_L90_0.npy
+bs053_YR_R90_0.npy
+bs054_CR_RU_0.npy
+bs054_O_MOUTH_0.npy
+bs054_PR_U_0.npy
+bs054_YR_L45_0.npy
+bs054_YR_L90_0.npy
+bs054_YR_R45_0.npy
+bs054_YR_R90_0.npy
+bs055_CR_RD_0.npy
+bs055_CR_RU_0.npy
+bs055_PR_U_0.npy
+bs055_YR_L45_0.npy
+bs055_YR_L90_0.npy
+bs055_YR_R45_0.npy
+bs055_YR_R90_0.npy
+bs056_CR_RU_0.npy
+bs056_PR_SU_0.npy
+bs056_PR_U_0.npy
+bs056_YR_L90_0.npy
+bs056_YR_R90_0.npy
+bs057_CR_RD_0.npy
+bs057_O_HAIR_0.npy
+bs057_PR_U_0.npy
+bs057_YR_L45_0.npy
+bs057_YR_L90_0.npy
+bs057_YR_R45_0.npy
+bs057_YR_R90_0.npy
+bs058_PR_U_0.npy
+bs059_CR_RD_0.npy
+bs059_CR_RU_0.npy
+bs059_O_EYE_0.npy
+bs059_O_HAIR_0.npy
+bs059_PR_D_0.npy
+bs059_PR_U_0.npy
+bs059_YR_L45_0.npy
+bs059_YR_L90_0.npy
+bs059_YR_R30_0.npy
+bs059_YR_R90_0.npy
+bs060_CR_RD_0.npy
+bs060_CR_RU_0.npy
+bs060_O_EYE_0.npy
+bs060_O_HAIR_0.npy
+bs060_PR_D_0.npy
+bs060_PR_U_0.npy
+bs060_YR_L45_0.npy
+bs060_YR_L90_0.npy
+bs060_YR_R90_0.npy
+bs061_CR_RD_0.npy
+bs061_CR_RU_0.npy
+bs061_LFAU_9_0.npy
+bs061_PR_D_0.npy
+bs061_PR_U_0.npy
+bs061_YR_L45_0.npy
+bs061_YR_L90_0.npy
+bs061_YR_R90_0.npy
+bs062_CR_RD_0.npy
+bs062_CR_RU_0.npy
+bs062_O_HAIR_0.npy
+bs062_PR_SU_0.npy
+bs062_PR_U_0.npy
+bs062_YR_L45_0.npy
+bs062_YR_L90_0.npy
+bs062_YR_R30_0.npy
+bs062_YR_R45_0.npy
+bs062_YR_R90_0.npy
+bs063_CR_RD_0.npy
+bs063_CR_RU_0.npy
+bs063_O_HAIR_0.npy
+bs063_PR_SU_0.npy
+bs063_PR_U_0.npy
+bs063_YR_L45_0.npy
+bs063_YR_L90_0.npy
+bs063_YR_R45_0.npy
+bs063_YR_R90_0.npy
+bs064_CR_RD_0.npy
+bs064_CR_RU_0.npy
+bs064_LFAU_34_0.npy
+bs064_O_EYE_0.npy
+bs064_O_MOUTH_0.npy
+bs064_PR_D_0.npy
+bs064_YR_L90_0.npy
+bs064_YR_R90_0.npy
+bs065_CR_RU_0.npy
+bs065_YR_L90_0.npy
+bs065_YR_R90_0.npy
+bs066_CR_RD_0.npy
+bs066_CR_RU_0.npy
+bs066_PR_U_0.npy
+bs066_YR_L45_0.npy
+bs066_YR_L90_0.npy
+bs066_YR_R20_0.npy
+bs066_YR_R30_0.npy
+bs066_YR_R45_0.npy
+bs066_YR_R90_0.npy
+bs067_CR_RD_0.npy
+bs067_O_MOUTH_0.npy
+bs067_PR_D_0.npy
+bs067_YR_L45_0.npy
+bs067_YR_L90_0.npy
+bs067_YR_R45_0.npy
+bs067_YR_R90_0.npy
+bs068_CR_RU_0.npy
+bs068_YR_L45_0.npy
+bs068_YR_L90_0.npy
+bs068_YR_R30_0.npy
+bs068_YR_R45_0.npy
+bs068_YR_R90_0.npy
+bs069_CR_RD_0.npy
+bs069_CR_RU_0.npy
+bs069_PR_U_0.npy
+bs069_YR_L90_0.npy
+bs069_YR_R90_0.npy
+bs070_CR_RU_0.npy
+bs070_PR_U_0.npy
+bs070_YR_L45_0.npy
+bs070_YR_L90_0.npy
+bs070_YR_R45_0.npy
+bs070_YR_R90_0.npy
+bs071_CR_RD_0.npy
+bs071_CR_RU_0.npy
+bs071_O_HAIR_0.npy
+bs071_PR_D_0.npy
+bs071_PR_U_0.npy
+bs071_YR_L45_0.npy
+bs071_YR_L90_0.npy
+bs071_YR_R20_0.npy
+bs071_YR_R30_0.npy
+bs071_YR_R45_0.npy
+bs071_YR_R90_0.npy
+bs072_CR_RD_0.npy
+bs072_CR_RU_0.npy
+bs072_PR_U_0.npy
+bs072_YR_L45_0.npy
+bs072_YR_L90_0.npy
+bs072_YR_R45_0.npy
+bs072_YR_R90_0.npy
+bs073_CR_RU_0.npy
+bs073_O_EYE_0.npy
+bs073_O_MOUTH_0.npy
+bs073_PR_U_0.npy
+bs073_YR_L45_0.npy
+bs073_YR_L90_0.npy
+bs073_YR_R20_0.npy
+bs073_YR_R30_0.npy
+bs073_YR_R45_0.npy
+bs073_YR_R90_0.npy
+bs074_CR_RD_0.npy
+bs074_CR_RU_0.npy
+bs074_LFAU_9_0.npy
+bs074_YR_L90_0.npy
+bs074_YR_R90_0.npy
+bs075_CR_RD_0.npy
+bs075_CR_RU_0.npy
+bs075_YR_L45_0.npy
+bs075_YR_L90_0.npy
+bs075_YR_R30_0.npy
+bs075_YR_R45_0.npy
+bs075_YR_R90_0.npy
+bs076_CR_RU_0.npy
+bs076_YR_L45_0.npy
+bs076_YR_L90_0.npy
+bs076_YR_R45_0.npy
+bs076_YR_R90_0.npy
+bs077_CR_RU_0.npy
+bs077_LFAU_9_0.npy
+bs077_O_EYE_0.npy
+bs077_O_GLASSES_0.npy
+bs077_PR_U_0.npy
+bs077_YR_L45_0.npy
+bs077_YR_L90_0.npy
+bs077_YR_R90_0.npy
+bs078_CR_RU_0.npy
+bs078_LFAU_27_0.npy
+bs078_PR_D_0.npy
+bs078_PR_U_0.npy
+bs078_UFAU_43_0.npy
+bs078_YR_L45_0.npy
+bs078_YR_L90_0.npy
+bs078_YR_R90_0.npy
+bs079_CR_RD_0.npy
+bs079_CR_RU_0.npy
+bs079_YR_L90_0.npy
+bs079_YR_R90_0.npy
+bs080_CR_RU_0.npy
+bs080_PR_SU_0.npy
+bs080_YR_L45_0.npy
+bs080_YR_L90_0.npy
+bs080_YR_R90_0.npy
+bs081_O_MOUTH_0.npy
+bs081_PR_U_0.npy
+bs081_YR_L45_0.npy
+bs081_YR_L90_0.npy
+bs081_YR_R45_0.npy
+bs081_YR_R90_0.npy
+bs082_CR_RD_0.npy
+bs082_CR_RU_0.npy
+bs082_YR_L45_0.npy
+bs082_YR_L90_0.npy
+bs082_YR_R20_0.npy
+bs082_YR_R30_0.npy
+bs082_YR_R45_0.npy
+bs082_YR_R90_0.npy
+bs083_YR_L45_0.npy
+bs083_YR_L90_0.npy
+bs083_YR_R90_0.npy
+bs084_CR_RD_0.npy
+bs084_CR_RU_0.npy
+bs084_PR_U_0.npy
+bs084_YR_L45_0.npy
+bs084_YR_L90_0.npy
+bs084_YR_R45_0.npy
+bs084_YR_R90_0.npy
+bs085_PR_U_0.npy
+bs085_YR_L45_0.npy
+bs085_YR_L90_0.npy
+bs085_YR_R90_0.npy
+bs086_PR_U_0.npy
+bs086_YR_L45_0.npy
+bs086_YR_L90_0.npy
+bs086_YR_R45_0.npy
+bs086_YR_R90_0.npy
+bs087_PR_U_0.npy
+bs087_YR_L45_0.npy
+bs087_YR_L90_0.npy
+bs087_YR_R45_0.npy
+bs087_YR_R90_0.npy
+bs088_CR_RD_0.npy
+bs088_E_DISGUST_0.npy
+bs088_O_HAIR_0.npy
+bs088_YR_L45_0.npy
+bs088_YR_L90_0.npy
+bs088_YR_R45_0.npy
+bs088_YR_R90_0.npy
+bs089_PR_U_0.npy
+bs089_YR_L45_0.npy
+bs089_YR_L90_0.npy
+bs089_YR_R45_0.npy
+bs089_YR_R90_0.npy
+bs090_YR_L45_0.npy
+bs090_YR_L90_0.npy
+bs090_YR_R90_0.npy
+bs091_CR_RD_0.npy
+bs091_CR_RU_0.npy
+bs091_O_GLASSES_0.npy
+bs091_PR_U_0.npy
+bs091_YR_L45_0.npy
+bs091_YR_L90_0.npy
+bs091_YR_R30_0.npy
+bs091_YR_R45_0.npy
+bs091_YR_R90_0.npy
+bs092_CR_RU_0.npy
+bs092_LFAU_17_0.npy
+bs092_YR_L45_0.npy
+bs092_YR_L90_0.npy
+bs092_YR_R10_0.npy
+bs092_YR_R20_0.npy
+bs092_YR_R90_0.npy
+bs093_CR_RD_0.npy
+bs093_E_ANGER_0.npy
+bs093_E_DISGUST_0.npy
+bs093_PR_D_0.npy
+bs093_PR_SD_0.npy
+bs093_YR_L45_0.npy
+bs093_YR_L90_0.npy
+bs093_YR_R45_0.npy
+bs093_YR_R90_0.npy
+bs094_PR_U_0.npy
+bs094_YR_L45_0.npy
+bs094_YR_L90_0.npy
+bs094_YR_R45_0.npy
+bs094_YR_R90_0.npy
+bs095_YR_L90_0.npy
+bs095_YR_R90_0.npy
+bs096_YR_L90_0.npy
+bs096_YR_R90_0.npy
+bs097_LFAU_20_0.npy
+bs097_LFAU_27_0.npy
+bs097_YR_L45_0.npy
+bs097_YR_L90_0.npy
+bs097_YR_R45_0.npy
+bs097_YR_R90_0.npy
+bs098_CR_RU_0.npy
+bs098_YR_L45_0.npy
+bs098_YR_L90_0.npy
+bs098_YR_R45_0.npy
+bs098_YR_R90_0.npy
+bs099_CR_RD_0.npy
+bs099_PR_D_0.npy
+bs099_YR_L90_0.npy
+bs099_YR_R90_0.npy
+bs100_YR_L45_0.npy
+bs100_YR_L90_0.npy
+bs100_YR_R90_0.npy
+bs101_O_HAIR_0.npy
+bs101_YR_L45_0.npy
+bs101_YR_L90_0.npy
+bs101_YR_R90_0.npy
+bs102_O_HAIR_0.npy
+bs102_PR_U_0.npy
+bs102_YR_L45_0.npy
+bs102_YR_L90_0.npy
+bs102_YR_R45_0.npy
+bs102_YR_R90_0.npy
+bs103_LFAU_9_0.npy
+bs103_YR_L45_0.npy
+bs103_YR_L90_0.npy
+bs103_YR_R45_0.npy
+bs103_YR_R90_0.npy

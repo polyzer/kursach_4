@@ -27,7 +27,7 @@ for line in open_file.readlines():
                 error_obj['right_matches'] += 1
             else:
                 error_obj['missed_matches'] += 1
-                save_errors_file.write(line)
+                save_errors_file.write(line.split(" ")[0] + "\n")
 #    result = re.split(r'[[', 'Analytics Vidhya')
 open_file.close()
 summary = 0

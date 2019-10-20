@@ -1,17 +1,18 @@
 %This script rotates ply clouds
-PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\errored\';
+PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_1\';
 RotatedPlySaveDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_rotated\';
-for k = 0:104
-    num_part = '';
+
+for k = 0:0
     if k < 10
-        num_part = 'bs00';
+        files_mask = strcat(PlyLoadDir, 'bs00', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs00', int2str(k),'*N_N_0.ply');
     elseif k < 100
-        num_part = 'bs0';
+        files_mask = strcat(PlyLoadDir, 'bs0', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs0', int2str(k),'*N_N_0.ply');
     else        
-        num_part = 'bs';
+        files_mask = strcat(PlyLoadDir, 'bs', int2str(k), '*.ply');
+        normals_mask=strcat(PlyLoadDir, 'bs', int2str(k),'*N_N_0.ply');
     end
-    files_mask = strcat(PlyLoadDir, num_part, int2str(k), '*.ply');
-    normals_mask=strcat(PlyLoadDir, num_part, int2str(k),'*N_N_0.ply');
     files  = dir (files_mask);
     [count, ~] = size(files);
     fprintf("%d\n", count);
@@ -33,8 +34,7 @@ for k = 0:104
             counter = counter + 1;
         end
         %ptCloudOut = pctransform(ptCloudOut, tform);
-        fprintf(">>> %s (%d of %d)<<<\n", file.name, i, count);
-        write_file_name = strcat(RotatedPlySaveDir, file.name);
-        pcwrite(current_rotating_ply, write_file_name);
+        fprintf(">>> %s (%d of %d)<<<\n", file.name, i, count);        
+        pcshow(movingReg);
     end
 end

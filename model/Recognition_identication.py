@@ -11,12 +11,12 @@ import os
 import shutil
 import datetime
 
-files_ply_path = ".\\3DFace\\Probe"
+files_ply_path = "G:\\workspace\\irisfaceRGBD\\3DFace\\Probe"
 files_probe_path = ".\\3DFace\\Probe"
 files_gallery_path = ".\\3DFace\\Gallery"
 
 timestamp = datetime.datetime.now()
-model_name = "Weights.caffemodel"
+model_name = "output_pruned.caffemodel"
 prototxt_file = "VGG_FACE_deploy.prototxt"
 log_file = open(".\\logs\\identication_" + str(timestamp).replace(' ', '_').replace(":", "_"), "a+")
 log_file.write("Experiment type: Identication\n")
@@ -129,9 +129,9 @@ def to_rgb1a(im):
 sTarget = '.npy'
 
 caffe.set_mode_cpu()
-net = caffe.Net("VGG_FACE_deploy.prototxt", "Weights.caffemodel",  caffe.TEST)
+net = caffe.Net("VGG_FACE_deploy.prototxt", model_name,  caffe.TEST)
 
-for i in range(100):
+for i in range(90,105):
     name_index = ""
     if i < 10:
         name_index += "00" + str(i)

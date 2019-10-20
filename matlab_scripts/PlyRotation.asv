@@ -1,18 +1,18 @@
 %This script rotates ply clouds
-PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_1\';
+PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\errored';
 RotatedPlySaveDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_rotated\';
-
+fid = fopen(ErrorsFileName);
 for k = 0:0
+    num_part = '';
     if k < 10
-        files_mask = strcat(PlyLoadDir, 'bs00', int2str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, 'bs00', int2str(k),'*N_N_0.ply');
+        num_part = 'bs00';
     elseif k < 100
-        files_mask = strcat(PlyLoadDir, 'bs0', int2str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, 'bs0', int2str(k),'*N_N_0.ply');
+        num_part = 'bs0';
     else        
-        files_mask = strcat(PlyLoadDir, 'bs', int2str(k), '*.ply');
-        normals_mask=strcat(PlyLoadDir, 'bs', int2str(k),'*N_N_0.ply');
+        num_part = 'bs';
     end
+    files_mask = strcat(PlyLoadDir, num_part, int2str(k), '*.ply');
+    normals_mask=strcat(PlyLoadDir, num_part, int2str(k),'*N_N_0.ply');
     files  = dir (files_mask);
     [count, ~] = size(files);
     fprintf("%d\n", count);
@@ -27,11 +27,11 @@ for k = 0:0
         current_rotating_ply = pcread(filename);
         [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
         fprintf("rmse %d", rmse);
-        counter = 0
-        while rmse > 10
+        counter = 0;
+        while counter < 10
             [tform,current_rotating_ply,rmse] = pcregrigid(current_rotating_ply, current_normal_ply);
             fprintf("rmse %d", rmse);
-            counter += 1;
+            counter = counter + 1;
         end
         %ptCloudOut = pctransform(ptCloudOut, tform);
         fprintf(">>> %s (%d of %d)<<<\n", file.name, i, count);        
