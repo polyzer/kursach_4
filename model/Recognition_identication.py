@@ -16,7 +16,7 @@ files_probe_path = ".\\3DFace\\Probe"
 files_gallery_path = ".\\3DFace\\Gallery"
 
 timestamp = datetime.datetime.now()
-model_name = "output_pruned.caffemodel"
+model_name = "pruned_weights_0.005.caffemodel"
 prototxt_file = "VGG_FACE_deploy.prototxt"
 log_file = open(".\\logs\\identication_" + str(timestamp).replace(' ', '_').replace(":", "_"), "a+")
 log_file.write("Experiment type: Identication\n")
@@ -76,7 +76,7 @@ def getIdentificationAccuracy(model, aGallery, aGalleryLabel,aProb, aProbLabel):
         if i == 0:
           t0 = time.clock()
         temp_max = -10
-        temp_index = 0;
+        temp_index = 0
         temp_max = -1000
 
         measure = []
@@ -131,7 +131,7 @@ sTarget = '.npy'
 caffe.set_mode_cpu()
 net = caffe.Net("VGG_FACE_deploy.prototxt", model_name,  caffe.TEST)
 
-for i in range(90,105):
+for i in range(0,90):
     name_index = ""
     if i < 10:
         name_index += "00" + str(i)
@@ -217,7 +217,7 @@ for i in range(90,105):
         print(fileNames[i], ' Probe Label: ', sGallerylabel[i], ' Matched Label: ',
             min[i], ' max similarity: ', max_similarities[i], ' ref similarity: ', similarities[i])
         print ('\n')
-        log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + 'Matched Label: ' +
-            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + 'ref similarity: ' + str(similarities[i]) + "\n")
+        log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + ' Matched Label: ' +
+            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + ' ref similarity: ' + str(similarities[i]) + "\n")
 
 log_file.close()

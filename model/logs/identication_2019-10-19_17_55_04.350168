@@ -1,6 +1,6 @@
 Experiment type: Identication
 Date: 2019-10-19 17:55:04.350168
-Model: output_pruned.caffemodel
+Model: output_pruned_0.005.caffemodel
 bs000_CAU_A22A25_0.npy Probe Label: 0Matched Label: 0 max similarity: [[0.7417966]]ref similarity: [[0.7417966]]
 bs000_CAU_A26A12lw_0.npy Probe Label: 1Matched Label: 0 max similarity: [[0.7717706]]ref similarity: [[0.37276694]]
 bs000_CR_RD_0.npy Probe Label: 2Matched Label: 58 max similarity: [[0.5081706]]ref similarity: [[0.28043914]]

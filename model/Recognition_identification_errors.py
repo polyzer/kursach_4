@@ -16,6 +16,7 @@ files_ply_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\PlyRotated"
 files_probe_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Probe"
 files_gallery_path = "G:\\kursach_4_kurs\\kursach_4\\model\\3DFace\\Gallery"
 
+
 timestamp = datetime.datetime.now()
 model_name = "Weights.caffemodel"
 prototxt_file = "VGG_FACE_deploy.prototxt"
@@ -42,6 +43,8 @@ def copyBosphorusNormalFiles(from_dir, to_dir):
         copy_file_name = os.path.join(to_dir, file_name)
         shutil.copy(full_file_name, copy_file_name)
     print("Normal files were copied")
+
+
 
 def getFeatures(model, adata):
     sFeatures = []
@@ -128,11 +131,9 @@ def to_rgb1a(im):
 sTarget = '.npy'
 
 caffe.set_mode_cpu()
-net = caffe.Net(prototxt_file, model_name,  caffe.TEST)
+net = caffe.Net("VGG_FACE_deploy.prototxt", model_name,  caffe.TEST)
 
-print('done')
-
-for i in range(48):
+for i in range(0,90):
     name_index = ""
     if i < 10:
         name_index += "00" + str(i)
@@ -157,18 +158,17 @@ for i in range(48):
     avg = np.array([37,37,37])
 
     ## Gallery Path
-    sGalPath = './3DFace/Gallery'
+    sGalPath = './3DFace/gallery'
 
 
     dirs = [f for f in listdir(sGalPath) if isfile(join(sGalPath, f)) and (f.endswith(sTarget))]
     N_id = len(dirs)
     for i, n in enumerate(dirs):
-
         Y_temp = np.zeros(N_id)
         Y_temp[i] = 1
         X_temp = np.load(sGalPath + '/'+ n)
         X_temp = to_rgb1a(X_temp)
-        image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
+        image = scipy.misc.imresize(X_temp.astype('float32'), [224, 224])
         image = image - avg
         image = image.transpose((2, 0, 1))
 
@@ -178,7 +178,7 @@ for i in range(48):
 
 
     ## Probe Path
-    sProbPath = './3DFace/Probe'
+    sProbPath = './3DFace/probe'
     dirs = [f for f in listdir(sProbPath) if isfile(join(sProbPath, f)) and (f.endswith(sTarget))]
 
     N_id = len(dirs)
@@ -188,7 +188,7 @@ for i in range(48):
         Y_temp[i] = 1
         X_temp = np.load(sProbPath + '/' + n)
         X_temp = to_rgb1a(X_temp)
-        image = skimage.transform.resize(X_temp.astype('float32'), [224, 224])
+        image = scipy.misc.imresize(X_temp.astype('float32'), [224, 224])
         image = image - avg
         image = image.transpose((2, 0, 1))
         X_Probe.append(image)
@@ -212,15 +212,14 @@ for i in range(48):
     [results, label, min, max_similarities, similarities, similaritiesMatrix] = getIdentificationAccuracy(net, X_Gallery, sGallerylabel, X_Probe, sProbLabel)
 
 
-    print("rank-1 acc: ", results)  
+    print("rank-1 acc: ", results)
 
 
     for i in range(0, len(fileNames)):
         print(fileNames[i], ' Probe Label: ', sGallerylabel[i], ' Matched Label: ',
             min[i], ' max similarity: ', max_similarities[i], ' ref similarity: ', similarities[i])
         print ('\n')
-        log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + 'Matched Label: ' +
-            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + 'ref similarity: ' + str(similarities[i]) + "\n")
-
+        log_file.write(str(fileNames[i]) + ' Probe Label: ' + str(sGallerylabel[i]) + ' Matched Label: ' +
+            str(min[i]) + ' max similarity: ' + str(max_similarities[i]) + ' ref similarity: ' + str(similarities[i]) + "\n")
 
 log_file.close()
