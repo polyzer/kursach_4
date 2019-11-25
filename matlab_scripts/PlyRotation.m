@@ -1,7 +1,7 @@
 %This script rotates ply clouds
 PlyLoadDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\errored\';
-RotatedPlySaveDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_rotated\';
-for k = 0:104
+RotatedPlySaveDir = 'G:\kursach_4_kurs\kursach_4\Datasets\DB\ply_rotated_new\';
+for k = 50:104
     num_part = '';
     if k < 10
         num_part = 'bs00';

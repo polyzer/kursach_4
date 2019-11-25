@@ -1,4 +1,5 @@
 Datasets
+kursach_images
 *.h5
 *.prototxt
 *.caffemodel
